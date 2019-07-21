@@ -3,13 +3,10 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  // NavbarBrand,
   Nav,
   NavItem,
   NavLink
 } from 'reactstrap';
-
-import './Navigation.scss';
 
 export default class Navigation extends React.Component {
   constructor(props) {

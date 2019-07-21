@@ -1,0 +1,18 @@
+.Navbar {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  a {
+    color: white;
+    &:hover {
+      color: #dedede;
+    }
+  }
+  .navItem {
+    list-style-type: none;
+  }
+  button,
+  .navbar-toggler-icon {
+    color: white;
+    background-color: white;
+  }
+}

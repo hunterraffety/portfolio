@@ -3,21 +3,22 @@ import React from 'react';
 
 // components
 import Navigation from '../Navigation/Navigation';
-
-// styles
-import './Cta.scss';
+import HeaderContent from '../HeaderContent/HeaderContent';
 
 export default class Cta extends React.Component {
   render() {
     return (
       <div className='content'>
-        <header>
+        <header className='cta-header'>
           <div className='header_bg' />
           <Navigation />
-          <div className='cta-container'>
-            <h1>test</h1>
-          </div>
+          <HeaderContent />
         </header>
+        <div className='cta-container'>
+          <i className='fab fa-react fa-5x' />
+          <span className='fas fa-camera fa-5x' />
+          <span className='fab fa-react fa-5x' />
+        </div>
       </div>
     );
   }

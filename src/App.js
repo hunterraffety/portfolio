@@ -5,9 +5,6 @@ import React from 'react';
 // components
 import Cta from './components/Cta/Cta';
 
-// styles
-import './App.scss';
-
 function App() {
   return (
     <div className='App'>
