@@ -1,23 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Countdown from 'react-countdown-now';
 
 function App() {
+  const renderer = ({ days, hours, minutes, seconds }) => {
+    if (days > 1) {
+      return (
+        <span>
+          {days} days, {hours} hours, {minutes} minutes, {seconds} seconds.
+        </span>
+      );
+    } else {
+      return (
+        <span>
+          {hours} hours, {minutes} minutes, {seconds} seconds.
+        </span>
+      );
+    }
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className='App'>
+      <header className='App-header'>
+        <Countdown date={new Date('July 24, 2019')} renderer={renderer} />
       </header>
     </div>
   );
