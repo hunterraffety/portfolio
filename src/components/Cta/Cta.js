@@ -2,8 +2,10 @@
 import React from 'react';
 
 // components
-import Navigation from '../Navigation/Navigation';
 import HeaderContent from '../HeaderContent/HeaderContent';
+import Navigation from '../Navigation/Navigation';
+import About from '../About/About';
+import Skills from '../Skills/Skills';
 
 export default function Cta() {
   return (
@@ -13,11 +15,8 @@ export default function Cta() {
         <Navigation />
         <HeaderContent />
       </header>
-      <div className='cta-container'>
-        <i className='fab fa-js-square fa-5x' />
-        <i className='fab fa-react fa-5x' />
-        <i className='fab fa-node fa-5x' />
-      </div>
+      <About />
+      <Skills />
     </div>
   );
 }

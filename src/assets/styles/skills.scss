@@ -1,0 +1,59 @@
+.skills-container {
+  padding: 1rem;
+  background-color: rgb(34, 40, 51);
+  font-family: 'Montserrat', sans-serif;
+  .lead {
+    line-height: 1.5;
+    color: white;
+  }
+  .skills-intro {
+    margin: 2rem 0;
+    h1 {
+      margin: 0;
+      font: 44px 'Montserrat', sans-serif;
+      position: relative;
+      color: rgb(255, 255, 255);
+    }
+  }
+  .skills-top,
+  .skills-bottom {
+    margin: 1rem;
+    .card {
+      margin: 1rem;
+    }
+  }
+  .skill {
+    i.fa-js-square {
+      color: #f0db4f;
+      text-shadow: 1px 1px black;
+    }
+    i.fa-react {
+      color: #00d8ff;
+      text-shadow: 1px 1px black;
+    }
+    i.fa-node {
+      color: #2f7d32;
+      text-shadow: 1px 1px black;
+    }
+    i.fa-sass {
+      color: #cf649a;
+      text-shadow: 1px 1px black;
+    }
+    i {
+      padding: 1rem;
+      color: red;
+    }
+  }
+  .card {
+    background-color: #dedede;
+    padding: 0.1rem;
+    border: 0;
+    .card-body {
+      border-top: 3px solid $trans-black;
+      margin-top: 0.2rem;
+    }
+  }
+  .skills-bottom {
+    padding-bottom: 3rem;
+  }
+}

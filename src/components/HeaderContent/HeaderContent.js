@@ -26,7 +26,7 @@ export default function HeaderContent() {
       <Row className='cta-middle-row'>
         <Col className='cta-middle' auto='true'>
           <p>My name is Hunter Raffety.</p>
-          <p>I am a Full Stack Web Developer from the metro Phoenix.</p>
+          <p>I am a Full Stack Web Developer from the Phoenix metro area.</p>
         </Col>
       </Row>
     </Container>
