@@ -1,18 +1,34 @@
 // dependencies
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import { fadeIn } from 'react-animations';
+import styled, { keyframes } from 'styled-components';
+
+// styled components
+const fadeInAnimation = keyframes`${fadeIn}`;
+
+const FadeIn = styled.div`
+  animation: 3.5s ${fadeInAnimation};
+`;
 
 // components
-//
 
-const HeaderContent = () => {
+export default function HeaderContent() {
   return (
     <Container className='hc-container'>
-      <Row className='top-row'>
-        <Col className='top'>.colasdasdsd</Col>
+      <Row className='cta-top-row'>
+        <Col className='cta-top'>
+          <FadeIn>
+            <h1>Hello.</h1>
+          </FadeIn>
+        </Col>
+      </Row>
+      <Row className='cta-middle-row'>
+        <Col className='cta-middle' auto='true'>
+          <p>My name is Hunter Raffety.</p>
+          <p>I am a Full Stack Web Developer from the metro Phoenix.</p>
+        </Col>
       </Row>
     </Container>
   );
-};
-
-export default HeaderContent;
+}

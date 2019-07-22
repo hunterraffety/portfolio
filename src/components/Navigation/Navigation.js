@@ -25,7 +25,7 @@ export default class Navigation extends React.Component {
 
   render() {
     return (
-      <Navbar navbar light expand='md'>
+      <Navbar light expand='md'>
         <NavItem className='navItem'>
           Hunter Raffety | Full Stack Web Developer
         </NavItem>
