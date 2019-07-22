@@ -1,14 +1,17 @@
 // dependencies
 import React from 'react';
+import { Container, Row, Col } from 'reactstrap';
 
 // components
 //
 
 const HeaderContent = () => {
   return (
-    <div className='header-container'>
-      <h1>Hello from header</h1>;
-    </div>
+    <Container className='hc-container'>
+      <Row className='top-row'>
+        <Col className='top'>.colasdasdsd</Col>
+      </Row>
+    </Container>
   );
 };
 
