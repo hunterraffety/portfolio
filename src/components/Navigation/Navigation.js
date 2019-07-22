@@ -26,23 +26,23 @@ export default class Navigation extends React.Component {
   render() {
     return (
       <Navbar light expand='md' fixed='top'>
-        <NavItem className='navItem'>
+        <NavItem className='navItem text-center'>
           Hunter Raffety | Full Stack Web Developer
         </NavItem>
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>
-          <Nav className='ml-auto' navbar>
+          <Nav className='ml-auto text-center' navbar>
             <NavItem>
-              <NavLink href='/components/'>About |</NavLink>
+              <NavLink href='/components/'>About</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href='https://github.com/reactstrap/reactstrap'>
-                Portfolio |
+                Portfolio
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink href='https://github.com/reactstrap/reactstrap'>
-                Skills |
+                Skills
               </NavLink>
             </NavItem>
             <NavItem>
