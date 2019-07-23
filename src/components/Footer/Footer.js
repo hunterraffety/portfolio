@@ -11,10 +11,10 @@ class Footer extends React.Component {
 
   render() {
     return (
-      <div className='footer-container' id='#contact'>
+      <div className='footer-container' id='contact'>
         <Row className='justify-content-md-center footer-intro'>
           <Col className='text-center footer-intro-text' md='6'>
-            <h1 className='text_shadow'>Feel like learning more?</h1>
+            <h1 className='text_shadow'>Get in touch with me.</h1>
           </Col>
         </Row>
         <Row>
