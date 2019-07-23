@@ -58,12 +58,16 @@ class About extends React.Component {
                   I am the person that never gives up.
                 </h6>
                 <p>
-                  It's a fair conclusion to say that I haven't always succeeded
-                  as much as I believe I should or set out to.{' '}
+                  It's a fair and honest conclusion to say that I haven't always
+                  succeeded as much as I believe I should -- or met all of the
+                  high expectations I've held for myself.{' '}
                   <span className='font-italic'>That's okay.</span> That doesn't
                   mean that I will ever stop trying with everything that I have
-                  inside of me, around me, and that I can think of to achieve
-                  and make things happen.
+                  though. It doesn't mean that I won't lean on those around me
+                  when I need help. It's okay to ask for help. I will apply all
+                  of the knowledge I have learned through personal experiences,
+                  professional experiences, and education to figure out the way
+                  I can best tackle a challenge or problem.
                   <p className='text-center'>
                     Raising a family?
                     <a className='btn' onClick={this.toggle}>
@@ -137,15 +141,19 @@ class About extends React.Component {
                 </h6>
                 <p>
                   Nobody in life achieves anything great without the help of
-                  someone, somewhere along the way. I'd be the most selfish
-                  person to say that I have done all of these things on my own.
-                  I didn't. I had people who were invested in, committed to, and
-                  believed in me. I spent nearly 10 years as a professional
-                  teacher of students with disabilities, and I gave my all. I've
-                  looked in my daughter's eyes when it was hard for her to tell
-                  the truth and told her I loved her no matter what. I've stood
-                  face to face with some hard truths and learned from them. I
-                  was never alone though.
+                  someone, somewhere along the way. I'd be an arrogant, selfish
+                  fool of a person to say that I have achieved all these things
+                  on my own. <span className='font-italic'>I didn't.</span> I
+                  had people who were invested in, committed to, and believed in
+                  me. I spent nearly 10 years as a Special Education teacher
+                  that co-taught secondary and high school mathematics, and I
+                  gave my all every day. I've looked in my daughter's eyes when
+                  it was hard for her to tell the truth and told her I that
+                  loved her no matter what. I've stood face to face with some
+                  hard truths and learned from them. I was never alone though. I
+                  have learned a lot about myself through my time on this
+                  planet. Including all of the things I've learned, I've also
+                  learned this:
                 </p>
                 <h6 className='text-center font-weight-bold'>
                   I am a software developer.
