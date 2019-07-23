@@ -18,7 +18,7 @@ class Footer extends React.Component {
           </Col>
         </Row>
         <Row>
-          <Form>
+          <Form method='post'>
             <input type='hidden' name='form-name' value='contact' />
             <Row form>
               <Col md={6}>
