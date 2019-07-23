@@ -9,10 +9,11 @@ const Skills = props => {
           <Card className='justify-content-md-center'>
             <CardText>
               <i className='fab fa-js-square fa-5x' />
+              <i class='fab fa-react fa-5x' />
             </CardText>
             <CardBody className='skills-card-body'>
               <CardText>
-                <h6 className='text-center'>This one is about JavaScript.</h6>
+                <h6 className='text-center'>Frontend Development</h6>
                 <p className='lead text-justify'>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. A
                   recusandae maxime qui ut possimus quae?
@@ -24,11 +25,12 @@ const Skills = props => {
         <Col className='text-center skill' md='4'>
           <Card>
             <CardText>
-              <i class='fab fa-react fa-5x' />
+              <i class='fab fa-html5 fa-5x' />
+              <i class='fab fa-sass fa-5x' />
             </CardText>
             <CardBody className='skills-card-body'>
               <CardText>
-                <h6>This one is going to be about React.</h6>
+                <h6>User Experience</h6>
                 <p className='lead text-justify'>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure
                   pariatur totam voluptatum doloribus id alias!
@@ -43,10 +45,11 @@ const Skills = props => {
           <Card>
             <CardText>
               <i class='fab fa-node fa-5x' />
+              <i class='fab fa-npm fa-5x' />
             </CardText>
             <CardBody className='skills-card-body'>
               <CardText>
-                <h6>Probable that I am going to write about node.js.</h6>
+                <h6>Backend Development</h6>
                 <p className='lead text-justify'>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Alias quaerat consequuntur mollitia eligendi, quisquam quas.
@@ -58,11 +61,12 @@ const Skills = props => {
         <Col className='text-center skill' md='4'>
           <Card>
             <CardText>
-              <i class='fab fa-sass fa-5x' />
+              <i class='fal fa-database fa-5x' />
+              <i class='fal fa-cloud-upload fa-5x' />
             </CardText>
             <CardBody className='skills-card-body'>
               <CardText>
-                <h6>I feel like this should be about styling.</h6>
+                <h6>Data</h6>
                 <p className='lead text-justify'>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Blanditiis corporis laboriosam ratione pariatur? Ab,

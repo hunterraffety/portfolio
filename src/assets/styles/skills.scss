@@ -25,23 +25,31 @@
   .skill {
     i.fa-js-square {
       color: #f0db4f;
-      text-shadow: 1px 1px black;
     }
     i.fa-react {
       color: #00d8ff;
-      text-shadow: 1px 1px black;
     }
     i.fa-node {
       color: #2f7d32;
-      text-shadow: 1px 1px black;
     }
     i.fa-sass {
       color: #cf649a;
-      text-shadow: 1px 1px black;
+    }
+    i.fa-npm {
+      color: #cc0413;
+    }
+    i.fa-html5 {
+      color: #e44d26;
+    }
+    i.fa-database {
+      color: #414141;
+    }
+    i.fa-cloud-upload {
+      color: #87ceeb;
     }
     i {
       padding: 1rem;
-      color: red;
+      text-shadow: 1px 1px black;
     }
   }
   .card {
