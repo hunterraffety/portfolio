@@ -26,7 +26,7 @@ export default class Navigation extends React.Component {
   render() {
     return (
       <Navbar light expand='md' fixed='top'>
-        <NavItem className='navItem text-center'>
+        <NavItem className='navItem text-center' md='hidden'>
           Hunter Raffety | Full Stack Web Developer
         </NavItem>
         <NavbarToggler onClick={this.toggle} />

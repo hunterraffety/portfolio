@@ -3,6 +3,7 @@
   font-family: 'Montserrat', sans-serif;
   .lead {
     line-height: 1.5;
+    font-size: 1rem;
   }
   .about-intro {
     margin: 2rem 0;
@@ -11,6 +12,20 @@
       font: 44px 'Montserrat', sans-serif;
       position: relative;
       color: rgb(65, 65, 65);
+    }
+    .about-text {
+      line-height: 2;
+      margin: 0.2rem;
+      .emphasis {
+        font-style: italic;
+      }
+      h6 {
+        margin: 0.5rem 0;
+      }
+    }
+    .btn {
+      text-decoration: underline;
+      cursor: pointer;
     }
   }
   .card {

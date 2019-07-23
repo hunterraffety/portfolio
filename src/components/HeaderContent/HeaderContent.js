@@ -17,14 +17,14 @@ export default function HeaderContent() {
   return (
     <Container className='hc-container'>
       <Row className='cta-top-row'>
-        <Col className='cta-top'>
+        <Col className='cta-top text-center'>
           <FadeIn>
             <h1>Hello.</h1>
           </FadeIn>
         </Col>
       </Row>
       <Row className='cta-middle-row'>
-        <Col className='cta-middle' auto='true'>
+        <Col className='cta-middle text-center' auto='true'>
           <p>My name is Hunter Raffety.</p>
           <p>I am a Full Stack Web Developer from the Phoenix metro area.</p>
         </Col>
