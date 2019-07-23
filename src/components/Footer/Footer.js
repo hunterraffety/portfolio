@@ -18,12 +18,7 @@ class Footer extends React.Component {
           </Col>
         </Row>
         <Row>
-          <Form
-            name='contact'
-            className='pad bottom-line'
-            method='post'
-            netlify
-          >
+          <Form name='contact' className='pad bottom-line' netlify>
             <Row form>
               <Col md={6}>
                 <FormGroup>
@@ -58,7 +53,7 @@ class Footer extends React.Component {
             </Row>
             <Row>
               <Col>
-                <Button>Submit</Button>
+                <Input type='submit'>Submit</Input>
               </Col>
             </Row>
           </Form>
