@@ -22,9 +22,9 @@ const Skills = props => {
             </CardText>
             <CardBody className='skills-card-body'>
               <CardText>
-                <h6>This one is about JavaScript.</h6> Lorem ipsum dolor sit,
-                amet consectetur adipisicing elit. A recusandae maxime qui ut
-                possimus quae?
+                <h6>This one is about JavaScript.</h6>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. A
+                recusandae maxime qui ut possimus quae?
               </CardText>
             </CardBody>
           </Card>
