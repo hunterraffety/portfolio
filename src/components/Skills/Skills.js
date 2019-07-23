@@ -1,15 +1,5 @@
 import React from 'react';
-import {
-  Card,
-  CardImg,
-  CardText,
-  CardBody,
-  CardTitle,
-  CardSubtitle,
-  Button,
-  Row,
-  Col
-} from 'reactstrap';
+import { Card, CardText, CardBody, Row, Col } from 'reactstrap';
 
 const Skills = props => {
   return (
@@ -22,9 +12,11 @@ const Skills = props => {
             </CardText>
             <CardBody className='skills-card-body'>
               <CardText>
-                <h6>This one is about JavaScript.</h6>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. A
-                recusandae maxime qui ut possimus quae?
+                <h6 className='text-center'>This one is about JavaScript.</h6>
+                <p className='lead text-justify'>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. A
+                  recusandae maxime qui ut possimus quae?
+                </p>
               </CardText>
             </CardBody>
           </Card>
@@ -36,9 +28,11 @@ const Skills = props => {
             </CardText>
             <CardBody className='skills-card-body'>
               <CardText>
-                <h6>This one is going to be about React.</h6> Lorem ipsum dolor,
-                sit amet consectetur adipisicing elit. Iure pariatur totam
-                voluptatum doloribus id alias!
+                <h6>This one is going to be about React.</h6>
+                <p className='lead text-justify'>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure
+                  pariatur totam voluptatum doloribus id alias!
+                </p>
               </CardText>
             </CardBody>
           </Card>
@@ -52,9 +46,11 @@ const Skills = props => {
             </CardText>
             <CardBody className='skills-card-body'>
               <CardText>
-                <h6>Probable that I am going to write about node.js.</h6> Lorem
-                ipsum dolor, sit amet consectetur adipisicing elit. Alias
-                quaerat consequuntur mollitia eligendi, quisquam quas.
+                <h6>Probable that I am going to write about node.js.</h6>
+                <p className='lead text-justify'>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Alias quaerat consequuntur mollitia eligendi, quisquam quas.
+                </p>
               </CardText>
             </CardBody>
           </Card>
@@ -67,9 +63,11 @@ const Skills = props => {
             <CardBody className='skills-card-body'>
               <CardText>
                 <h6>I feel like this should be about styling.</h6>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Blanditiis corporis laboriosam ratione pariatur? Ab,
-                consectetur?
+                <p className='lead text-justify'>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Blanditiis corporis laboriosam ratione pariatur? Ab,
+                  consectetur?
+                </p>
               </CardText>
             </CardBody>
           </Card>

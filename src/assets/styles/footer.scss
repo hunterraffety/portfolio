@@ -1,0 +1,22 @@
+.footer-container {
+  background-color: rgb(34, 40, 51);
+  font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 3rem 0;
+  .footer-content {
+  }
+  .footer-desc {
+    padding-bottom: 2.5rem;
+    font-size: 1.2rem;
+    color: black;
+    .card {
+      padding: 1rem;
+    }
+  }
+  .footer-intro {
+    padding: 0.5rem 0 3rem 0;
+    h1 {
+      font-size: 3.2rem;
+      color: #dedede;
+    }
+  }
+}

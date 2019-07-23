@@ -4,6 +4,24 @@
   .portfolio-content {
     padding: 3rem 0;
   }
+  .portfolio-text-content {
+    font-size: 3.2rem;
+    color: #dedede;
+    .top {
+      padding-top: 3rem;
+    }
+    .bottom {
+      padding-bottom: 3rem;
+      .lead {
+        font-size: 1rem;
+        padding-top: 0.3rem;
+        line-height: 2;
+      }
+    }
+    h6 {
+      font-size: 1.2rem;
+    }
+  }
   .card {
     padding: 0.1rem;
   }

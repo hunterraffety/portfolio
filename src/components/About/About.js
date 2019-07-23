@@ -1,12 +1,5 @@
 import React from 'react';
 import {
-  Card,
-  CardImg,
-  CardText,
-  CardBody,
-  CardTitle,
-  CardSubtitle,
-  Button,
   Row,
   Col,
   Modal,
@@ -70,9 +63,9 @@ class About extends React.Component {
                   I can best tackle a challenge or problem.
                   <p className='text-center'>
                     Raising a family?
-                    <a className='btn' onClick={this.toggle}>
+                    <button className='btn' onClick={this.toggle}>
                       I'm doing it.
-                    </a>
+                    </button>
                     <Modal
                       isOpen={this.state.modal}
                       toggle={this.toggle}

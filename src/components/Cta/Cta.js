@@ -2,9 +2,10 @@
 import React from 'react';
 
 // components
+import About from '../About/About';
+import Footer from '../Footer/Footer';
 import HeaderContent from '../HeaderContent/HeaderContent';
 import Navigation from '../Navigation/Navigation';
-import About from '../About/About';
 import Portfolio from '../Portfolio/Portfolio';
 import Skills from '../Skills/Skills';
 
@@ -19,6 +20,7 @@ export default function Cta() {
       <About />
       <Portfolio />
       <Skills />
+      <Footer />
     </div>
   );
 }

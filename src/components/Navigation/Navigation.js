@@ -44,6 +44,9 @@ export default class Navigation extends React.Component {
               <NavLink href='#skills'>Skills</NavLink>
             </NavItem>
             <NavItem>
+              <NavLink href='#contact'>Contact</NavLink>
+            </NavItem>
+            <NavItem>
               <NavLink href='https://github.com/hunterraffety' target='_blank'>
                 Github
               </NavLink>
