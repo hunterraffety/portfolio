@@ -81,6 +81,7 @@ class About extends React.Component {
                         <img
                           width='100%'
                           src='https://raw.githubusercontent.com/hunterraffety/portfolio/hunter-raffety/src/assets/img/family.png'
+                          alt='my children. love.'
                         />
                       </ModalBody>
                       <ModalFooter />
@@ -92,6 +93,7 @@ class About extends React.Component {
                       className='btn'
                       href='https://www.stvincentdepaul.net/'
                       target='_blank'
+                      rel='noopener noreferrer'
                     >
                       I don't know how not to.
                     </a>
@@ -102,6 +104,7 @@ class About extends React.Component {
                       className='btn'
                       href='https://www.asu.edu/'
                       target='_blank'
+                      rel='noopener noreferrer'
                     >
                       I did that.
                     </a>
@@ -112,8 +115,9 @@ class About extends React.Component {
                       className='btn'
                       href='https://www.wgu.edu/'
                       target='_blank'
+                      rel='noopener noreferrer'
                     >
-                      I did that, too.
+                      I did that too.
                     </a>
                   </p>
                   <p className='text-center'>
@@ -122,6 +126,7 @@ class About extends React.Component {
                       className='btn'
                       href='https://lambdaschool.com/'
                       target='_blank'
+                      rel='noopener noreferrer'
                     >
                       I'm doing it.
                     </a>
