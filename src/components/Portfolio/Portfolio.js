@@ -13,13 +13,13 @@ const Portfolio = props => {
         </Col>
       </Row>
       <Row className='justify-content-md-center portfolio-content'>
-        <Col md='3'>
+        <Col md='6'>
           <Card className='card-top'>
             <a href='https://ls-umts.netlify.com/' target='_blank'>
               <CardImg
                 top
                 width='100%'
-                src='https://raw.githubusercontent.com/hunterraffety/portfolio/hunter-raffety/src/assets/img/umts-t.png'
+                src='https://raw.githubusercontent.com/hunterraffety/portfolio/hunter-raffety/src/assets/img/umts.png'
                 alt='Use My Tech Stuff'
               />
             </a>
@@ -37,13 +37,15 @@ const Portfolio = props => {
             </CardText>
           </Card>
         </Col>
-        <Col md='3'>
+      </Row>
+      <Row className='justify-content-md-center portfolio-content'>
+        <Col md='6'>
           <Card className='card-top'>
             <a href='https://hr-buildweek-ui.netlify.com/' target='_blank'>
               <CardImg
                 top
                 width='100%'
-                src='https://raw.githubusercontent.com/hunterraffety/portfolio/hunter-raffety/src/assets/img/educell-r.png'
+                src='https://raw.githubusercontent.com/hunterraffety/portfolio/hunter-raffety/src/assets/img/educell.png'
                 alt='Educell'
               />
             </a>
@@ -61,13 +63,15 @@ const Portfolio = props => {
             </CardText>
           </Card>
         </Col>
-        <Col md='3'>
+      </Row>
+      <Row className='justify-content-md-center portfolio-content'>
+        <Col md='6'>
           <Card className='card-top'>
             <a href='https://hr-igclone.netlify.com/' target='_blank'>
               <CardImg
                 top
                 width='100%'
-                src='https://raw.githubusercontent.com/hunterraffety/portfolio/hunter-raffety/src/assets/img/react-insta-r.png'
+                src='https://raw.githubusercontent.com/hunterraffety/portfolio/hunter-raffety/src/assets/img/react-insta.png'
                 alt='React Instagram Clone'
               />
             </a>
