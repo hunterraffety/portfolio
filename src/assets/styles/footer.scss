@@ -19,6 +19,7 @@
       color: #dedede;
     }
   }
+
   label {
     color: #dedede;
     padding: 1rem 0;
@@ -46,5 +47,19 @@
   }
   .pad {
     padding: 0 2rem;
+  }
+  .pad-top {
+    padding-top: 3rem;
+  }
+  .social-line:before {
+    content: ''; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 60%; /* Change this to whatever width you want. */
+    border-bottom: 1px solid #dedede; /* This creates the border. Replace black with whatever color you want. */
+    box-shadow: 1px 1px black;
+  }
+  form {
+    margin: 0 auto;
   }
 }

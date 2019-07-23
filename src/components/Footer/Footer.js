@@ -17,8 +17,8 @@ class Footer extends React.Component {
             <h1 className='text_shadow'>Feel like learning more?</h1>
           </Col>
         </Row>
-        <Row className='justify-content-md-center'>
-          <Form className='pad'>
+        <Row>
+          <Form className='pad bottom-line'>
             <Row form>
               <Col md={6}>
                 <FormGroup>
@@ -43,7 +43,7 @@ class Footer extends React.Component {
                 </FormGroup>
               </Col>
             </Row>
-            <Row className='justify-content-md-center'>
+            <Row>
               <Col>
                 <FormGroup>
                   <Label for='comment_text'>Comments.</Label>
@@ -51,15 +51,15 @@ class Footer extends React.Component {
                 </FormGroup>
               </Col>
             </Row>
-            <Row className='justify-content-md-center'>
+            <Row>
               <Col>
                 <Button>Submit</Button>
               </Col>
             </Row>
           </Form>
         </Row>
-        <Row className='justify-content-md-center social'>
-          <Col md='6' className='text-center'>
+        <Row className='justify-content-md-center social social-line'>
+          <Col md='6' className='text-center pad-top'>
             <a
               href='https://github.com/hunterraffety'
               rel='noopener noreferrer'
@@ -83,7 +83,7 @@ class Footer extends React.Component {
             </a>
           </Col>
         </Row>
-        <Row className='justify-content-md-center social'>
+        <Row className='justify-content-md-center'>
           <Col md='6' className='text-center'>
             <h6>&copy; Hunter Raffety | 2019</h6>
           </Col>
