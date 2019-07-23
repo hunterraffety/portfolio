@@ -12,24 +12,14 @@ class Footer extends React.Component {
   render() {
     return (
       <div className='footer-container' id='contact'>
-        {/* <form name='contact' hidden>
-          <input type='text' name='name' />
-          <input type='email' name='email' />
-          <textarea name='text' />
-        </form> */}
         <Row className='justify-content-md-center footer-intro'>
           <Col className='text-center footer-intro-text' md='6'>
             <h1 className='text_shadow'>Get in touch with me.</h1>
           </Col>
         </Row>
         <Row>
-          <Form
-            name='contact'
-            method='post'
-            netlify
-            netlify-honeypot='bot-field'
-            form-name='contact'
-          >
+          <Form>
+            <input type='hidden' name='form-name' value='contact' />
             <Row form>
               <Col md={6}>
                 <FormGroup>
