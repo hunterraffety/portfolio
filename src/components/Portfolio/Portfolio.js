@@ -9,7 +9,7 @@ const Portfolio = props => {
     <div className='portfolio-container align-items-center' id='portfolio'>
       <Row className='portfolio-text-content justify-content-md-center'>
         <Col className='top' md='auto'>
-          <h1>Finely curated projects.</h1>
+          <h1 className='text-center'>Finely curated projects.</h1>
         </Col>
       </Row>
       <Row className='justify-content-md-center portfolio-content'>

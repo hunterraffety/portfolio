@@ -18,11 +18,11 @@ class Footer extends React.Component {
           </Col>
         </Row>
         <Row className='justify-content-md-center'>
-          <Form>
+          <Form className='pad'>
             <Row form>
               <Col md={6}>
                 <FormGroup>
-                  <Label for='exampleEmail'>Name.</Label>
+                  <Label for='contact_name'>Name.</Label>
                   <Input
                     type='name'
                     name='name'
