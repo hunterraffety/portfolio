@@ -12,6 +12,11 @@ class Footer extends React.Component {
   render() {
     return (
       <div className='footer-container' id='contact'>
+        <form name='contact' netlify netlify-honeypot='bot-field' hidden>
+          <input type='text' name='name' />
+          <input type='email' name='email' />
+          <textarea name='text' />
+        </form>
         <Row className='justify-content-md-center footer-intro'>
           <Col className='text-center footer-intro-text' md='6'>
             <h1 className='text_shadow'>Get in touch with me.</h1>
@@ -23,22 +28,17 @@ class Footer extends React.Component {
             <Row form>
               <Col md={6}>
                 <FormGroup>
-                  <Label for='contact_name'>Name</Label>
-                  <Input
-                    type='name'
-                    name='name'
-                    id='contact_name'
-                    placeholder='Name'
-                  />
+                  <Label for='name'>Name</Label>
+                  <Input type='name' name='name' id='name' placeholder='Name' />
                 </FormGroup>
               </Col>
               <Col md={6}>
                 <FormGroup>
-                  <Label for='email_address'>Email</Label>
+                  <Label for='email'>Email</Label>
                   <Input
                     type='email'
                     name='email'
-                    id='email_address'
+                    id='email'
                     placeholder='email'
                   />
                 </FormGroup>
@@ -47,14 +47,14 @@ class Footer extends React.Component {
             <Row>
               <Col>
                 <FormGroup>
-                  <Label for='comment_text'>Comments</Label>
-                  <Input type='textarea' name='text' id='comment_text' />
+                  <Label for='text'>Comments</Label>
+                  <Input type='textarea' name='text' id='text' />
                 </FormGroup>
               </Col>
             </Row>
             <Row>
               <Col>
-                <Input type='submit'>Submit</Input>
+                <Button type='submit'>Submit</Button>
               </Col>
             </Row>
           </Form>
