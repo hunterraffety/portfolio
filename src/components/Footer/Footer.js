@@ -45,7 +45,7 @@ class Footer extends React.Component {
             </Row>
             <Row className='justify-content-md-center'>
               <Col>
-                <FormGroup className='w-100'>
+                <FormGroup>
                   <Label for='comment_text'>Comments.</Label>
                   <Input type='textarea' name='text' id='comment_text' />
                 </FormGroup>
