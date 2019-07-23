@@ -27,7 +27,9 @@ export default class Navigation extends React.Component {
     return (
       <Navbar light expand='md' fixed='top'>
         <NavItem className='navItem text-center' md='hidden'>
-          Hunter Raffety | Full Stack Web Developer
+          <NavLink href='#home'>
+            Hunter Raffety | Full Stack Web Developer
+          </NavLink>
         </NavItem>
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>

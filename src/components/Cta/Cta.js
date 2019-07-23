@@ -11,7 +11,7 @@ import Skills from '../Skills/Skills';
 export default function Cta() {
   return (
     <div className='content'>
-      <header className='cta-header'>
+      <header className='cta-header' id='home'>
         <div className='header_bg' />
         <Navigation />
         <HeaderContent />
