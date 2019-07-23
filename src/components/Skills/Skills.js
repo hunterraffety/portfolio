@@ -38,8 +38,8 @@ const Skills = props => {
                   There is a lot of power in elegance, simplicity, and directing
                   user focus on the web. Writing clean and semantic code to have
                   understandable layouts and to optimize SEO is critical when
-                  delivering applications. Aesthetically pleasing & stylistic
-                  code to enhance user experience is fundamental.
+                  delivering applications. Aesthetically pleasing experiences
+                  that are created to enhance user experience is fundamental.
                 </p>
               </CardText>
             </CardBody>
@@ -58,10 +58,9 @@ const Skills = props => {
                 <h6>Backend Development</h6>
                 <p className='lead text-justify'>
                   Having access to complete server-side tasks is what modern web
-                  application is all about. In conjunction with the libraries
-                  that developers use, node allows for an executable environment
-                  outside of the browser and NPM opens up a world of
-                  possibilities (if you're careful!) to accomplish tasks.
+                  application with JavaScript is all about. In conjunction with
+                  the libraries that developers use, node is vital to
+                  development web applications that are functional and usable.
                 </p>
               </CardText>
             </CardBody>
