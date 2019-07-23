@@ -15,14 +15,18 @@ const Portfolio = props => {
       <Row className='justify-content-md-center portfolio-content'>
         <Col md='3'>
           <Card className='card-top'>
-            <CardImg
-              top
-              width='100%'
-              src='https://raw.githubusercontent.com/hunterraffety/portfolio/hunter-raffety/src/assets/img/umts-t.png'
-              alt='Use My Tech Stuff'
-            />
+            <a href='https://ls-umts.netlify.com/' target='_blank'>
+              <CardImg
+                top
+                width='100%'
+                src='https://raw.githubusercontent.com/hunterraffety/portfolio/hunter-raffety/src/assets/img/umts-t.png'
+                alt='Use My Tech Stuff'
+              />
+            </a>
             <CardText className='text-center'>
-              <h6 className='font-weight-bold'>Use My Tech Stuff</h6>
+              <a href='https://ls-umts.netlify.com/' target='_blank'>
+                <h6 className='font-weight-bold'>Use My Tech Stuff</h6>
+              </a>
               <p className='text-justify'>
                 Use My Tech Stuff is a high-end equipment sharing marketplace.
                 This project was built during my third build week at Lambda
@@ -35,14 +39,18 @@ const Portfolio = props => {
         </Col>
         <Col md='3'>
           <Card className='card-top'>
-            <CardImg
-              top
-              width='100%'
-              src='https://raw.githubusercontent.com/hunterraffety/portfolio/hunter-raffety/src/assets/img/educell-r.png'
-              alt='Educell'
-            />
+            <a href='https://hr-buildweek-ui.netlify.com/' target='_blank'>
+              <CardImg
+                top
+                width='100%'
+                src='https://raw.githubusercontent.com/hunterraffety/portfolio/hunter-raffety/src/assets/img/educell-r.png'
+                alt='Educell'
+              />
+            </a>
             <CardText className='text-center'>
-              <h6 className='font-weight-bold'>Educell</h6>
+              <a href='https://hr-buildweek-ui.netlify.com/' target='_blank'>
+                <h6 className='font-weight-bold'>Educell</h6>
+              </a>
               <p className='text-justify'>
                 Educell is a platform for delivering seamless collaboration and
                 communication tools for those who have a vested interest in
@@ -55,14 +63,20 @@ const Portfolio = props => {
         </Col>
         <Col md='3'>
           <Card className='card-top'>
-            <CardImg
-              top
-              width='100%'
-              src='https://raw.githubusercontent.com/hunterraffety/portfolio/hunter-raffety/src/assets/img/react-insta-r.png'
-              alt='React Instagram Clone'
-            />
+            <a href='https://hr-igclone.netlify.com/' target='_blank'>
+              <CardImg
+                top
+                width='100%'
+                src='https://raw.githubusercontent.com/hunterraffety/portfolio/hunter-raffety/src/assets/img/react-insta-r.png'
+                alt='React Instagram Clone'
+              />
+            </a>
             <CardText className='text-center'>
-              <h6 className='font-weight-bold'>React Instagram Clone</h6>
+              <h6 className='font-weight-bold'>
+                <a href='https://hr-igclone.netlify.com/' target='_blank'>
+                  React Instagram Clone
+                </a>
+              </h6>
               <p className='text-justify'>
                 The React Instagram Clone project is a deep dive into React and
                 Redux. It was built using functional and class components, as
