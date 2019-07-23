@@ -18,7 +18,12 @@ class Footer extends React.Component {
           </Col>
         </Row>
         <Row>
-          <Form className='pad bottom-line' netlify method='post'>
+          <Form
+            name='contact'
+            className='pad bottom-line'
+            method='post'
+            netlify
+          >
             <Row form>
               <Col md={6}>
                 <FormGroup>
