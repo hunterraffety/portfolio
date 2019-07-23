@@ -48,25 +48,30 @@ const Portfolio = props => {
         <Col className='bottom text-center' md='3'>
           <h6>Use My Tech Stuff</h6>
           <p className='lead text-justify'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed
-            consequuntur beatae qui, neque modi, ex nemo unde eos, fugiat
-            suscipit nihil voluptatibus aliquid nobis veniam.
+            Use My Tech Stuff is a high-end equipment sharing marketplace. This
+            project was built during my third build week at Lambda School with a
+            team of 5 developers. It utilizes React, Express, node,
+            Styled-Components, Material Design, and has a wide backend set of
+            endpoints capturing data in SQLite.
           </p>
         </Col>
         <Col className='bottom text-center' md='3'>
           <h6>Educell</h6>
           <p className='lead text-justify'>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-            harum nesciunt soluta ipsam perspiciatis, nostrum deserunt impedit
-            sed illum assumenda quo, sapiente repudiandae quod delectus?
+            Educell is a platform for delivering seamless collaboration and
+            communication tools for those who have a vested interest in
+            positive, student centered outcomes. This was built during my first
+            build week at Lambda School. It utilizes JavaScript, SASS, and
+            responsive design.
           </p>
         </Col>
         <Col className='bottom text-center' md='3'>
           <h6>React Instagram Clone</h6>
           <p className='lead text-justify'>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit magni
-            perferendis tenetur beatae, nostrum officiis delectus pariatur
-            fugit, laudantium deserunt modi quis iure corrupti. Quibusdam!
+            The React Instagram Clone project is a deep dive into React and
+            Redux. It was built using functional and class components, as well
+            as pulling in data from a backend API. This project was intended to
+            mirror the functionality of Instagram as closely as possible.
           </p>
         </Col>
       </Row>

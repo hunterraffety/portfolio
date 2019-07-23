@@ -4,7 +4,7 @@ import { Card, CardText, CardBody, Row, Col } from 'reactstrap';
 const Skills = props => {
   return (
     <div className='skills-container' id='skills'>
-      <Row className='justify-content-md-center skills-top d-flex align-items-center'>
+      <Row className='justify-content-md-center skills-top d-flex align-items-top'>
         <Col className='text-center skill' md='4'>
           <Card className='justify-content-md-center'>
             <CardText>
@@ -15,8 +15,11 @@ const Skills = props => {
               <CardText>
                 <h6 className='text-center'>Frontend Development</h6>
                 <p className='lead text-justify'>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. A
-                  recusandae maxime qui ut possimus quae?
+                  I love writing JavaScript. In a world full of complex problems
+                  that users and developers encounter every day, JavaScript
+                  introduces endless solutions to tackle them. I focus on
+                  writing clean, DRY, and well-documented code to build web
+                  applications that just work as expected.
                 </p>
               </CardText>
             </CardBody>
@@ -32,15 +35,18 @@ const Skills = props => {
               <CardText>
                 <h6>User Experience</h6>
                 <p className='lead text-justify'>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure
-                  pariatur totam voluptatum doloribus id alias!
+                  There is a lot of power in elegance, simplicity, and directing
+                  user focus on the web. Writing clean and semantic code to have
+                  understandable layouts and to optimize SEO is critical when
+                  delivering applications. Aesthetically pleasing & stylistic
+                  code to enhance user experience is fundamental.
                 </p>
               </CardText>
             </CardBody>
           </Card>
         </Col>
       </Row>
-      <Row className='justify-content-md-center skills-bottom'>
+      <Row className='justify-content-md-center skills-bottom d-flex align-items-top'>
         <Col className='text-center skill' md='4'>
           <Card>
             <CardText>
@@ -51,8 +57,11 @@ const Skills = props => {
               <CardText>
                 <h6>Backend Development</h6>
                 <p className='lead text-justify'>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Alias quaerat consequuntur mollitia eligendi, quisquam quas.
+                  Having access to complete server-side tasks is what modern web
+                  application is all about. In conjunction with the libraries
+                  that developers use, node allows for an executable environment
+                  outside of the browser and NPM opens up a world of
+                  possibilities (if you're careful!) to accomplish tasks.
                 </p>
               </CardText>
             </CardBody>
@@ -68,9 +77,11 @@ const Skills = props => {
               <CardText>
                 <h6>Data</h6>
                 <p className='lead text-justify'>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Blanditiis corporis laboriosam ratione pariatur? Ab,
-                  consectetur?
+                  Data persistence is absolutely essential to the way that the
+                  modern web works. Utilizing Relational Databases, NoSQL
+                  databases, and cloud software as a service / platforms as a
+                  service applications allows us to access data that has been
+                  neatly stored away for us.
                 </p>
               </CardText>
             </CardBody>
