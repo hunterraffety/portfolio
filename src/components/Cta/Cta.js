@@ -5,6 +5,7 @@ import React from 'react';
 import HeaderContent from '../HeaderContent/HeaderContent';
 import Navigation from '../Navigation/Navigation';
 import About from '../About/About';
+import Portfolio from '../Portfolio/Portfolio';
 import Skills from '../Skills/Skills';
 
 export default function Cta() {
@@ -16,6 +17,7 @@ export default function Cta() {
         <HeaderContent />
       </header>
       <About />
+      <Portfolio />
       <Skills />
     </div>
   );

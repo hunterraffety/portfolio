@@ -36,7 +36,7 @@ class About extends React.Component {
       <div className='about-container'>
         <Row className='justify-content-md-center'>
           <Col className='about-intro text-center' md='6'>
-            <h1>This is who I am.</h1>
+            <h1 id='about'>This is who I am.</h1>
             <p className='lead text-left'>
               <p className='about-text'>
                 <h6 className='text-center font-weight-bold'>
@@ -152,54 +152,6 @@ class About extends React.Component {
                 </h6>
               </p>
             </p>
-          </Col>
-        </Row>
-        <Row className='justify-content-md-center about-bottom'>
-          <Col md='3'>
-            <Card>
-              <CardImg
-                top
-                width='100%'
-                src='http://lorempixel.com/640/480/technics'
-                alt='Card image cap'
-              />
-              <CardBody className='about-card-body'>
-                <CardText>Here is something you can see.</CardText>
-              </CardBody>
-            </Card>
-          </Col>
-          <Col md='3'>
-            <Card>
-              <CardImg
-                top
-                width='100%'
-                src='http://lorempixel.com/640/480/abstract'
-                alt='Card image cap'
-              />
-              <CardBody className='about-card-body'>
-                <CardText>
-                  Did you see the first one? If not, here's another.
-                </CardText>
-              </CardBody>
-            </Card>
-          </Col>
-          <Col md='3'>
-            <Card>
-              <CardImg
-                top
-                width='100%'
-                src='http://lorempixel.com/640/480/city'
-                alt='Card image cap'
-              />
-              <CardBody className='about-card-body'>
-                <CardText>
-                  Everybody loves Lorem Ipsum. Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Laboriosam velit consectetur
-                  ullam nobis, vel recusandae tempora dignissimos molestias ad
-                  doloremque quae doloribus quia, pariatur optio.
-                </CardText>
-              </CardBody>
-            </Card>
           </Col>
         </Row>
       </div>

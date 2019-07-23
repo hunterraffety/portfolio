@@ -13,16 +13,8 @@ import {
 
 const Skills = props => {
   return (
-    <div className='skills-container'>
-      <Row className='justify-content-md-center skills-top'>
-        <Col className='skills-intro text-left' md='4'>
-          <h1>I use:</h1>
-          <p className='lead'>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga ut
-            recusandae assumenda qui reiciendis, dolores at delectus! Itaque
-            inventore iste, accusamus repudiandae architecto quaerat nemo!
-          </p>
-        </Col>
+    <div className='skills-container' id='skills'>
+      <Row className='justify-content-md-center skills-top d-flex align-items-center'>
         <Col className='text-center skill' md='4'>
           <Card className='justify-content-md-center'>
             <CardText>
@@ -36,6 +28,8 @@ const Skills = props => {
               </CardText>
             </CardBody>
           </Card>
+        </Col>
+        <Col className='text-center skill' md='4'>
           <Card>
             <CardText>
               <i class='fab fa-react fa-5x' />
@@ -64,6 +58,8 @@ const Skills = props => {
               </CardText>
             </CardBody>
           </Card>
+        </Col>
+        <Col className='text-center skill' md='4'>
           <Card>
             <CardText>
               <i class='fab fa-sass fa-5x' />
@@ -77,15 +73,6 @@ const Skills = props => {
               </CardText>
             </CardBody>
           </Card>
-        </Col>
-        <Col className='skills-intro text-right' md='4'>
-          <h1>I also use:</h1>
-          <p className='lead'>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum
-            facere deleniti, provident ex, vitae quae dolore ipsam odio
-            reprehenderit corporis laudantium vel consequatur laborum
-            reiciendis?
-          </p>
         </Col>
       </Row>
     </div>
