@@ -28,6 +28,7 @@ class Footer extends React.Component {
             method='post'
             netlify
             netlify-honeypot='bot-field'
+            form-name='contact'
           >
             <Row form>
               <Col md={6}>
