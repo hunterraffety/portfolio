@@ -22,7 +22,7 @@ class Footer extends React.Component {
             <Row form>
               <Col md={6}>
                 <FormGroup>
-                  <Label for='contact_name'>Name.</Label>
+                  <Label for='contact_name'>Name</Label>
                   <Input
                     type='name'
                     name='name'
@@ -33,7 +33,7 @@ class Footer extends React.Component {
               </Col>
               <Col md={6}>
                 <FormGroup>
-                  <Label for='email_address'>Email.</Label>
+                  <Label for='email_address'>Email</Label>
                   <Input
                     type='email'
                     name='email'
@@ -46,7 +46,7 @@ class Footer extends React.Component {
             <Row>
               <Col>
                 <FormGroup>
-                  <Label for='comment_text'>Comments.</Label>
+                  <Label for='comment_text'>Comments</Label>
                   <Input type='textarea' name='text' id='comment_text' />
                 </FormGroup>
               </Col>
