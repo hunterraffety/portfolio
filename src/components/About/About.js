@@ -139,8 +139,8 @@ class About extends React.Component {
                   teacher of students with disabilities, and I gave my all. I've
                   looked in my daughter's eyes when it was hard for her to tell
                   the truth and told her I loved her no matter what. I've stood
-                  face to face with some hard truths and learned. I was never
-                  alone though.
+                  face to face with some hard truths and learned from them. I
+                  was never alone though.
                 </p>
                 <h6 className='text-center font-weight-bold'>
                   I am a software developer.
