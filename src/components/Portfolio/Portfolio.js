@@ -9,7 +9,7 @@ const Portfolio = props => {
     <div className='portfolio-container align-items-center' id='portfolio'>
       <Row className='portfolio-text-content justify-content-md-center'>
         <Col className='top' md='auto'>
-          <h1 className='text-center'>Finely curated projects.</h1>
+          <h1 className='text-center'>Selected projects</h1>
         </Col>
       </Row>
       <Row className='justify-content-md-center portfolio-content'>
@@ -27,7 +27,7 @@ const Portfolio = props => {
               <a href='https://ls-umts.netlify.com/' target='_blank'>
                 <h6 className='font-weight-bold'>Use My Tech Stuff</h6>
               </a>
-              <p className='text-justify'>
+              <p className='text-left'>
                 Use My Tech Stuff is a high-end equipment sharing marketplace.
                 This project was built during my third build week at Lambda
                 School with a team of 5 developers. It utilizes React, Express,
@@ -51,7 +51,7 @@ const Portfolio = props => {
               <a href='https://hr-buildweek-ui.netlify.com/' target='_blank'>
                 <h6 className='font-weight-bold'>Educell</h6>
               </a>
-              <p className='text-justify'>
+              <p className='text-left'>
                 Educell is a platform for delivering seamless collaboration and
                 communication tools for those who have a vested interest in
                 positive, student centered outcomes. This was built during my
@@ -77,7 +77,7 @@ const Portfolio = props => {
                   React Instagram Clone
                 </a>
               </h6>
-              <p className='text-justify'>
+              <p className='text-left'>
                 The React Instagram Clone project is a deep dive into React and
                 Redux. It was built using functional and class components, as
                 well as pulling in data from a backend API. This project was

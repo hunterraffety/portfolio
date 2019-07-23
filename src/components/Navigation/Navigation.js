@@ -26,11 +26,11 @@ export default class Navigation extends React.Component {
   render() {
     return (
       <Navbar light expand='md' fixed='top'>
-        <NavItem className='navItem text-center' md='hidden'>
+        {/* <NavItem className='navItem text-center' md='hidden'>
           <NavLink href='#home'>
             Hunter Raffety | Full Stack Web Developer
           </NavLink>
-        </NavItem>
+        </NavItem> */}
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className='ml-auto text-center' navbar>
@@ -48,7 +48,7 @@ export default class Navigation extends React.Component {
             </NavItem>
             <NavItem>
               <NavLink href='https://github.com/hunterraffety' target='_blank'>
-                Github
+                <i class='fab fa-github' />
               </NavLink>
             </NavItem>
             <NavItem>
@@ -56,7 +56,7 @@ export default class Navigation extends React.Component {
                 href='https://linkedin.com/in/huntersraffety'
                 target='_blank'
               >
-                LinkedIn
+                <i class='fab fa-linkedin-in' />
               </NavLink>
             </NavItem>
           </Nav>

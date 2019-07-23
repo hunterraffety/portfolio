@@ -16,17 +16,14 @@ const FadeIn = styled.div`
 export default function HeaderContent() {
   return (
     <Container className='hc-container'>
-      <Row className='cta-top-row'>
-        <Col className='cta-top text-center'>
-          <FadeIn>
-            <h1>Hello.</h1>
-          </FadeIn>
-        </Col>
-      </Row>
       <Row className='cta-middle-row'>
-        <Col className='cta-middle text-justify text-md-center' auto='true'>
-          <p>My name is Hunter Raffety.</p>
-          <p>I am a Full Stack Web Developer from the Phoenix metro area.</p>
+        <Col className='cta-middle text-justify' auto='true'>
+          <p>
+            <span className='emphasis-lg'>Hi! I'm Hunter, </span>
+            <span className='emphasis-md'>
+              I'm a full-stack engineer from Phoenix, Arizona.
+            </span>
+          </p>
         </Col>
       </Row>
     </Container>

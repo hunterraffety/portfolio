@@ -29,27 +29,25 @@ class About extends React.Component {
       <div className='about-container'>
         <Row className='justify-content-md-center'>
           <Col className='about-intro text-center' md='6'>
-            <h1 id='about'>This is who I am.</h1>
+            <h1 id='about'>Who am I?</h1>
             <p className='lead text-left'>
               <p className='about-text'>
                 <h6 className='text-center font-weight-bold'>
-                  I am the person that never stops pursuing excellence.
+                  In pursuit of growth
                 </h6>
                 <p>
-                  I am not the person I was when I woke up yesterday. Today I am
-                  the best version of me that I have to offer. Make no mistake
-                  however -- that does not mean that I do not have a relentless
-                  desire to become better or that I'm content with who I am
-                  today. I mean,{' '}
+                  I am not the same person that I was when I woke up yesterday.
+                  Today I am the best version of me that I have to offer. Make
+                  no mistake however -- that does not mean that I do not have a
+                  relentless desire to become better or that I'm content with
+                  who I am today. I mean,{' '}
                   <span className='font-italic'>
                     I am pretty great, but I can become greater.
                   </span>{' '}
                   Every night I fall asleep I do so knowing that I did something
                   to become a better person during my day.
                 </p>
-                <h6 className='text-center font-weight-bold'>
-                  I am the person that never gives up.
-                </h6>
+                <h6 className='text-center font-weight-bold'>Relentless</h6>
                 <p>
                   It's a fair and honest admission to say that I haven't always
                   succeeded as much as I believe I should -- or that I've met
@@ -61,76 +59,9 @@ class About extends React.Component {
                   of the knowledge I have learned through personal experiences,
                   professional experiences, and education to figure out the way
                   I can best tackle a challenge or problem.
-                  <p className='text-center'>
-                    Raising a family?
-                    <button className='btn' onClick={this.toggle}>
-                      I'm doing it.
-                    </button>
-                    <Modal
-                      isOpen={this.state.modal}
-                      toggle={this.toggle}
-                      className={this.props.className}
-                    >
-                      <ModalHeader toggle={this.toggle}>
-                        <i class='fal fa-heart' />
-                      </ModalHeader>
-                      <ModalBody>
-                        <img
-                          width='100%'
-                          src='https://raw.githubusercontent.com/hunterraffety/portfolio/hunter-raffety/src/assets/img/family.png'
-                          alt='my children. love.'
-                        />
-                      </ModalBody>
-                      <ModalFooter />
-                    </Modal>
-                  </p>
-                  <p className='text-center'>
-                    Work?
-                    <a
-                      className='btn'
-                      href='https://www.stvincentdepaul.net/'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      I don't know how not to.
-                    </a>
-                  </p>
-                  <p className='text-center'>
-                    College?
-                    <a
-                      className='btn'
-                      href='https://www.asu.edu/'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      I did that.
-                    </a>
-                  </p>
-                  <p className='text-center'>
-                    Graduate school?
-                    <a
-                      className='btn'
-                      href='https://www.wgu.edu/'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      I did that too.
-                    </a>
-                  </p>
-                  <p className='text-center'>
-                    Lambda School?
-                    <a
-                      className='btn'
-                      href='https://lambdaschool.com/'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      I'm doing it.
-                    </a>
-                  </p>
                 </p>
                 <h6 className='text-center font-weight-bold'>
-                  I am the person that believes in others.
+                  A champion of others
                 </h6>
                 <p>
                   Nobody in life achieves anything great without the help of
@@ -143,14 +74,10 @@ class About extends React.Component {
                   all every day. I've looked in my daughter's eyes when it was
                   hard for her to tell the truth and told her I that loved her
                   no matter what. I've stood face to face with some hard truths
-                  and learned from them. I was never alone though. I have
-                  learned a lot about myself through my time on this planet.
-                  Including all of the things I've learned, I've also learned
-                  this:
+                  and learned from them. I was never alone though. This is one
+                  of the things that makes me want to give back to others in any
+                  way I can.
                 </p>
-                <h6 className='text-center font-weight-bold'>
-                  I am a software developer.
-                </h6>
               </p>
             </p>
           </Col>
