@@ -24,8 +24,12 @@
       }
     }
     .btn {
+      color: rgb(65, 65, 65);
       text-decoration: underline;
       cursor: pointer;
+      &:hover {
+        text-decoration: none;
+      }
     }
   }
   .card {
@@ -43,4 +47,8 @@
   .about-bottom {
     padding-bottom: 3rem;
   }
+}
+i.fa-heart {
+  color: crimson;
+  text-shadow: 1px 1px black;
 }

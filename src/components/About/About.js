@@ -74,38 +74,57 @@ class About extends React.Component {
                       toggle={this.toggle}
                       className={this.props.className}
                     >
-                      <ModalHeader toggle={this.toggle}>:love:</ModalHeader>
+                      <ModalHeader toggle={this.toggle}>
+                        <i class='fal fa-heart' />
+                      </ModalHeader>
                       <ModalBody>
-                        <img src='../../assets/img/family.png' />
+                        <img
+                          width='100%'
+                          src='https://raw.githubusercontent.com/hunterraffety/portfolio/hunter-raffety/src/assets/img/family.png'
+                        />
                       </ModalBody>
-                      <ModalFooter>
-                        <Button
-                          color='primary'
-                          className='text-center'
-                          onClick={this.toggle}
-                        >
-                          Aw.
-                        </Button>
-                      </ModalFooter>
+                      <ModalFooter />
                     </Modal>
                   </p>
                   <p className='text-center'>
-                    Work?{' '}
-                    <a href='https://www.stvincentdepaul.net/' target='_blank'>
+                    Work?
+                    <a
+                      className='btn'
+                      href='https://www.stvincentdepaul.net/'
+                      target='_blank'
+                    >
                       I don't know how not to.
                     </a>
                   </p>
                   <p className='text-center'>
                     College?
-                    <span className=''> I did it.</span>
+                    <a
+                      className='btn'
+                      href='https://www.asu.edu/'
+                      target='_blank'
+                    >
+                      I did that.
+                    </a>
                   </p>
                   <p className='text-center'>
                     Graduate school?
-                    <span className=''> I did it.</span>
+                    <a
+                      className='btn'
+                      href='https://www.wgu.edu/'
+                      target='_blank'
+                    >
+                      I did that, too.
+                    </a>
                   </p>
                   <p className='text-center'>
                     Lambda School?
-                    <span className=''> Yes, I'm doing it.</span>
+                    <a
+                      className='btn'
+                      href='https://lambdaschool.com/'
+                      target='_blank'
+                    >
+                      I'm doing it.
+                    </a>
                   </p>
                 </p>
                 <h6 className='text-center font-weight-bold'>
