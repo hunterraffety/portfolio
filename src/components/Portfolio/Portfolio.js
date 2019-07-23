@@ -51,18 +51,20 @@ const Portfolio = props => {
       </Row>
       <Row className='justify-content-md-center portfolio-desc'>
         <Col md='3'>
-          <Card>
-            <CardText>asd</CardText>
+          <Card className='card-bottom'>
+            <CardText className='text-center'>
+              <h6>Use My Tech Stuff</h6>
+            </CardText>
           </Card>
         </Col>
         <Col md='3'>
-          <Card>
-            <CardText>asd</CardText>
+          <Card className='card-bottom'>
+            <CardText className='text-center'>Educell</CardText>
           </Card>
         </Col>
         <Col md='3'>
-          <Card>
-            <CardText>asd</CardText>
+          <Card className='card-bottom'>
+            <CardText className='text-center'>React Instagram Clone</CardText>
           </Card>
         </Col>
       </Row>

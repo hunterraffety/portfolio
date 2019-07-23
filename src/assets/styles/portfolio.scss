@@ -1,7 +1,7 @@
 .portfolio-container {
   background-color: rgb(34, 40, 51);
+  font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   .portfolio-content {
-    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 3rem 0;
   }
   .card {
@@ -9,8 +9,11 @@
   }
   .portfolio-desc {
     padding-bottom: 2.5rem;
-    font-size: 3.2rem;
-    color: white;
+    font-size: 1.2rem;
+    color: black;
+    .card {
+      padding: 1rem;
+    }
   }
   .card-top {
     margin-top: 1rem;
