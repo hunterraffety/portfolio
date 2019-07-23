@@ -22,6 +22,9 @@
       .emphasis {
         font-style: italic;
       }
+      p:last-child {
+        padding-bottom: 2rem;
+      }
       h6 {
         margin: 0.5rem 0;
       }
