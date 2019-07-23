@@ -26,4 +26,18 @@
   textarea {
     height: 10rem;
   }
+  .social {
+    padding: 3rem 0;
+    font-size: 1.2rem;
+    color: white;
+    a {
+      color: #dedede;
+      &:hover {
+        color: rgb(141, 141, 141);
+      }
+    }
+    i {
+      padding: 1rem;
+    }
+  }
 }

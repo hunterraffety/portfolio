@@ -1,6 +1,6 @@
 // dependencies
 import React from 'react';
-import { Card, CardImg, CardText, Row, Col } from 'reactstrap';
+import { Card, CardImg, Row, Col } from 'reactstrap';
 
 // components
 

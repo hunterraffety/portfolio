@@ -1,14 +1,5 @@
 import React from 'react';
-import {
-  Row,
-  Col,
-  Button,
-  Form,
-  FormGroup,
-  Label,
-  Input,
-  FormText
-} from 'reactstrap';
+import { Row, Col, Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
 class Footer extends React.Component {
   constructor(props) {
@@ -55,8 +46,8 @@ class Footer extends React.Component {
             <Row className='justify-content-md-center'>
               <Col>
                 <FormGroup className='w-100'>
-                  <Label for='exampleText'>Comments.</Label>
-                  <Input type='textarea' name='text' id='exampleText' />
+                  <Label for='comment_text'>Comments.</Label>
+                  <Input type='textarea' name='text' id='comment_text' />
                 </FormGroup>
               </Col>
             </Row>
@@ -66,6 +57,31 @@ class Footer extends React.Component {
               </Col>
             </Row>
           </Form>
+        </Row>
+        <Row className='justify-content-md-center social'>
+          <Col md='6' className='text-center'>
+            <a
+              href='https://github.com/hunterraffety'
+              rel='noopener noreferrer'
+              target='_blank'
+            >
+              <i class='fab fa-github' />
+            </a>
+            <a
+              href='https://linkedin.com/in/huntersraffety'
+              rel='noopener noreferrer'
+              target='_blank'
+            >
+              <i class='fab fa-linkedin' />
+            </a>
+            <a
+              href='https://twitter.com/_hunterraffety'
+              rel='noopener noreferrer'
+              target='_blank'
+            >
+              <i class='fab fa-twitter' />
+            </a>
+          </Col>
         </Row>
       </div>
     );
