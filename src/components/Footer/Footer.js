@@ -14,7 +14,7 @@ class Footer extends React.Component {
       <div className='footer-container' id='footer'>
         <Row className='justify-content-md-center footer-intro'>
           <Col className='text-center footer-intro-text' md='6'>
-            <h1>Feel like learning more?</h1>
+            <h1 className='text_shadow'>Feel like learning more?</h1>
           </Col>
         </Row>
         <Row className='justify-content-md-center'>
@@ -81,6 +81,11 @@ class Footer extends React.Component {
             >
               <i class='fab fa-twitter' />
             </a>
+          </Col>
+        </Row>
+        <Row className='justify-content-md-center social'>
+          <Col md='6' className='text-center'>
+            <h6>&copy; Hunter Raffety | 2019</h6>
           </Col>
         </Row>
       </div>
