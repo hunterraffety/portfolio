@@ -26,7 +26,19 @@
     }
   }
   .card {
-    padding: 0.1rem;
+    border: none;
+    background-color: transparent;
+    img {
+      border: 2px solid #dedede;
+      border-radius: 5px;
+    }
+    .card-text {
+      margin: 0.2rem;
+      background-color: rgb(34, 40, 51);
+      border: none;
+      color: white;
+      line-height: 2;
+    }
   }
   .portfolio-desc {
     padding-bottom: 2.5rem;
