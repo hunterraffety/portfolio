@@ -71,10 +71,10 @@ class About extends React.Component {
                   the love I have to my wife, son, and daughter. I've stood in
                   the face of some hard truths and learned from them. I was
                   never alone though. These are a few of the things that make me
-                  want to give back to others in any way I am capable of. Being
-                  a software engineer is just one of the ways. I want to
-                  continue making investments in others like so many have for
-                  me.
+                  want to give back to others in any way I am capable of. I want
+                  to make continued investments in others like so many have for
+                  me. Being a software engineer is just one of the ways I can do
+                  that.
                 </p>
               </p>
             </p>

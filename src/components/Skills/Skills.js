@@ -27,14 +27,15 @@ const Skills = props => {
           <p className='about-text text-left'>
             There are countless issues that impact users on a daily basis. I am
             not immune to those. Additionally there are multitudes of complex
-            challenges that engineers encounter daily as well. I also, am not
-            immune to those. I use my skill set and aptitude to find solutions
-            to those issues and solve them no matter what challenge I have to
-            overcome. I love that JavaScript allows me to explore potential
-            solutions to absolute problems in not just best practice ways but
-            also in ways that are derived from my own unique thought process,
-            and challenge me not just in developing stronger skills but
-            intellectually as well.
+            challenges that engineers encounter daily. I also am not immune to
+            those. I will however use my skill set and aptitude to find
+            solutions to those issues and solve them no matter what challenge I
+            encounter. I love that JavaScript enables me to explore a variety of
+            potential solutions to things that are absolute problems. Not just
+            in best practice ways -- but also in ways that follow best practice
+            but are derived from my own unique thought process. I thrive when I
+            am challenged -- not just in developing stronger technological
+            skills but also intellectually and in personal growth.
           </p>
           <p className='about-text text-left about-bump'>
             There's a lot of power in elegant and aesthetically pleasing design.
