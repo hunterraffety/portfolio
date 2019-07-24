@@ -18,7 +18,7 @@ class Footer extends React.Component {
             <h1 className='text_shadow'>Get in touch with me.</h1>
           </Col>
         </Row>
-        <Row>
+        <Row className='justify-content-md-center'>
           <Form method='post'>
             <input type='hidden' name='form-name' value='contact' />
             <Row form>
@@ -56,10 +56,10 @@ class Footer extends React.Component {
           </Form>
         </Row>
 
-        <Row>
-          <Col className='text-right'>
+        <Row className='justify-content-md-center'>
+          <Col className='text-right' md='auto'>
             <a href='#home'>
-              <i class='fal fa-arrow-to-top fa-2x' />
+              <i class='fal fa-arrow-to-top fa-2x dark' />
             </a>
           </Col>
         </Row>
