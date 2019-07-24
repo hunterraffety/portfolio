@@ -2,13 +2,26 @@
   padding: 1rem;
   background-color: #dedede;
   font-family: 'Montserrat', sans-serif;
-  #skills {
+  .skills-anchor {
+    display: block;
     position: relative;
-    top: -50px;
+    top: -66px;
+    visibility: hidden;
+  }
+  .about-top {
+    padding: 1rem 0 0.3rem 0;
+  }
+  h1 {
+    font-size: 3.2rem;
+    color: #414141;
   }
   .lead {
     line-height: 1.5;
     color: white;
+  }
+  .about-text {
+    padding: 1rem;
+    line-height: 2;
   }
   .skills-intro {
     margin: 2rem 0;

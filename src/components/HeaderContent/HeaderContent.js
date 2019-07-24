@@ -1,15 +1,15 @@
 // dependencies
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import { fadeIn } from 'react-animations';
-import styled, { keyframes } from 'styled-components';
+// import { fadeIn } from 'react-animations';
+// import styled, { keyframes } from 'styled-components';
 
 // styled components
-const fadeInAnimation = keyframes`${fadeIn}`;
+// const fadeInAnimation = keyframes`${fadeIn}`;
 
-const FadeIn = styled.div`
-  animation: 3.5s ${fadeInAnimation};
-`;
+// const FadeIn = styled.div`
+//   animation: 3.5s ${fadeInAnimation};
+// `;
 
 // components
 

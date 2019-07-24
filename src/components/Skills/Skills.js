@@ -4,6 +4,17 @@ import { Card, CardText, CardBody, Row, Col } from 'reactstrap';
 const Skills = props => {
   return (
     <div className='skills-container' id='skills'>
+      <a href='#' className='skills-anchor' id='skills-anchor' />
+      <Row className='justify-content-md-center skills-top d-flex align-items-top'>
+        <Col md='8' className='text-center about-top'>
+          <h1>Skills are not exactly unique</h1>
+          <p className='about-text'>
+            Technical skills sometimes work best with a combination
+            understanding skill application and creativity. This isn't a list of
+            skills but rather thoughts on how they apply.
+          </p>
+        </Col>
+      </Row>
       <Row className='justify-content-md-center skills-top d-flex align-items-top'>
         <Col className='text-center skill' md='4'>
           <Card className='justify-content-md-center'>
@@ -13,13 +24,20 @@ const Skills = props => {
             </CardText>
             <CardBody className='skills-card-body'>
               <CardText>
-                <h6 className='text-center'>Frontend Development</h6>
-                <p className='lead text-justify'>
-                  I love writing JavaScript. In a world full of complex problems
-                  that users and developers encounter every day, JavaScript
-                  introduces endless solutions to tackle them. I focus on
-                  writing clean, DRY, and well-documented code to build web
-                  applications that just work as expected.
+                <h6 className='text-center font-weight-bold'>
+                  Frontend Development
+                </h6>
+                <p className='lead text-left'>
+                  There are so many issues that impact users and complex
+                  problems that developers encounter every single day. I love
+                  writing JavaScript to find solutions to those issues and to
+                  solve them in the cleanest and most efficient way possible.
+                  One of the most effective approaches for me to solve a problem
+                  or challenge is being able to stop and think critically about
+                  what needs to be done in a logical way -- then creating a plan
+                  to make it happen and thinking about any deviations that come
+                  along. Being dynamic and flexible is also useful for being
+                  able to view things a different way than normal.
                 </p>
               </CardText>
             </CardBody>
@@ -33,13 +51,17 @@ const Skills = props => {
             </CardText>
             <CardBody className='skills-card-body'>
               <CardText>
-                <h6>User Experience</h6>
-                <p className='lead text-justify'>
-                  There is a lot of power in elegance, simplicity, and directing
-                  user focus on the web. Writing clean and semantic code to have
-                  understandable layouts and to optimize SEO is critical when
-                  delivering applications. Aesthetically pleasing experiences
-                  that are created to enhance user experience is fundamental.
+                <h6 className='font-weight-bold'>User Experience</h6>
+                <p className='lead text-left'>
+                  There's a lot of power in elegant design. Things may be simple
+                  or they may be complex -- there is always a context that
+                  should be considered though. It's a powerful skill to be able
+                  to understand what it's like to be a user and to understand
+                  their experiences. Being able to visualize things in a
+                  different way than others do is a skill that falls outside of
+                  the technical realm, but when combined with technical skills
+                  can create powerful and meaningful interactions that leave a
+                  user with knowledge of why they use an application.
                 </p>
               </CardText>
             </CardBody>
@@ -55,8 +77,8 @@ const Skills = props => {
             </CardText>
             <CardBody className='skills-card-body'>
               <CardText>
-                <h6>Backend Development</h6>
-                <p className='lead text-justify'>
+                <h6 className='font-weight-bold'>Backend Development</h6>
+                <p className='lead text-left'>
                   Having access to complete server-side tasks is what modern web
                   application with JavaScript is all about. In conjunction with
                   the libraries that developers use, node is vital to
@@ -74,13 +96,16 @@ const Skills = props => {
             </CardText>
             <CardBody className='skills-card-body'>
               <CardText>
-                <h6>Data</h6>
-                <p className='lead text-justify'>
-                  Data persistence is absolutely essential to the way that the
-                  modern web works. Utilizing Relational Databases, NoSQL
-                  databases, and cloud software as a service / platforms as a
-                  service applications allows us to access data that has been
-                  neatly stored away for us.
+                <h6 className='font-weight-bold'>Data</h6>
+                <p className='lead text-left'>
+                  It is no surprise that data persistence is absolutely
+                  essential to the way that the modern web works. The idea of
+                  'saving things' may seem as simple as returning to a shopping
+                  cart on on a website. The efforts that go into planning,
+                  designing, and implementing data stores can be exceptionally
+                  complex. Approaching design in a logical and critical way
+                  allows for others following to make sense of the thinking
+                  behind implementation.
                 </p>
               </CardText>
             </CardBody>

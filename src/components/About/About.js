@@ -1,12 +1,5 @@
 import React from 'react';
-import {
-  Row,
-  Col,
-  Modal,
-  ModalHeader,
-  ModalBody,
-  ModalFooter
-} from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 
 class About extends React.Component {
   constructor(props) {
@@ -27,6 +20,7 @@ class About extends React.Component {
   render() {
     return (
       <div className='about-container'>
+        <a href='#' className='about-anchor' id='about-anchor' />
         <Row className='justify-content-md-center'>
           <Col className='about-intro text-center' md='6'>
             <h1 id='about'>Who am I?</h1>

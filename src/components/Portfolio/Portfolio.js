@@ -2,11 +2,10 @@
 import React from 'react';
 import { Card, CardImg, CardText, Row, Col } from 'reactstrap';
 
-// components
-
 const Portfolio = props => {
   return (
-    <div className='portfolio-container align-items-center' id='portfolio'>
+    <div className='portfolio-container align-items-center'>
+      <a href='#' className='portfolio-anchor' id='portfolio-anchor' />
       <Row className='portfolio-text-content justify-content-md-center'>
         <Col className='top' md='auto'>
           <h1 className='text-center'>Selected projects</h1>
@@ -15,7 +14,11 @@ const Portfolio = props => {
       <Row className='justify-content-md-center portfolio-content'>
         <Col md='6'>
           <Card className='card-top'>
-            <a href='https://ls-umts.netlify.com/' target='_blank'>
+            <a
+              href='https://ls-umts.netlify.com/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <CardImg
                 top
                 width='100%'
@@ -24,7 +27,11 @@ const Portfolio = props => {
               />
             </a>
             <CardText className='text-center'>
-              <a href='https://ls-umts.netlify.com/' target='_blank'>
+              <a
+                href='https://ls-umts.netlify.com/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <h6 className='font-weight-bold'>Use My Tech Stuff</h6>
               </a>
               <p className='text-left'>
@@ -41,7 +48,11 @@ const Portfolio = props => {
       <Row className='justify-content-md-center portfolio-content'>
         <Col md='6'>
           <Card className='card-top'>
-            <a href='https://hr-buildweek-ui.netlify.com/' target='_blank'>
+            <a
+              href='https://hr-buildweek-ui.netlify.com/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <CardImg
                 top
                 width='100%'
@@ -50,7 +61,11 @@ const Portfolio = props => {
               />
             </a>
             <CardText className='text-center'>
-              <a href='https://hr-buildweek-ui.netlify.com/' target='_blank'>
+              <a
+                href='https://hr-buildweek-ui.netlify.com/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <h6 className='font-weight-bold'>Educell</h6>
               </a>
               <p className='text-left'>
@@ -67,7 +82,11 @@ const Portfolio = props => {
       <Row className='justify-content-md-center portfolio-content'>
         <Col md='6'>
           <Card className='card-top'>
-            <a href='https://hr-igclone.netlify.com/' target='_blank'>
+            <a
+              href='https://hr-igclone.netlify.com/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <CardImg
                 top
                 width='100%'
@@ -77,7 +96,11 @@ const Portfolio = props => {
             </a>
             <CardText className='text-center'>
               <h6 className='font-weight-bold'>
-                <a href='https://hr-igclone.netlify.com/' target='_blank'>
+                <a
+                  href='https://hr-igclone.netlify.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   React Instagram Clone
                 </a>
               </h6>

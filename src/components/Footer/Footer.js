@@ -11,7 +11,8 @@ class Footer extends React.Component {
 
   render() {
     return (
-      <div className='footer-container' id='contact'>
+      <div className='footer-container'>
+        <a href='#' className='contact-anchor' id='contact-anchor' />
         <Row className='justify-content-md-center footer-intro'>
           <Col className='text-center footer-intro-text' md='6'>
             <h1 className='text_shadow'>Get in touch with me.</h1>
@@ -79,8 +80,15 @@ class Footer extends React.Component {
             </a>
           </Col>
         </Row>
+        <Row>
+          <Col className='text-right'>
+            <a href='#home'>
+              <i class='fal fa-arrow-to-top fa-2x' />
+            </a>
+          </Col>
+        </Row>
         <Row className='justify-content-md-center'>
-          <Col md='6' className='text-center'>
+          <Col md='6' className='text-center footer-bottom'>
             <h6>&copy; Hunter Raffety | 2019</h6>
           </Col>
         </Row>

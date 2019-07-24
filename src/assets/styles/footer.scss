@@ -1,9 +1,8 @@
 .footer-container {
   background-color: rgb(34, 40, 51);
   font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 3rem 0;
-  .footer-content {
-  }
+  padding: 4rem 0;
+
   .footer-desc {
     padding-bottom: 2.5rem;
     font-size: 1.2rem;
@@ -28,7 +27,7 @@
     height: 10rem;
   }
   .social {
-    padding: 3rem 0;
+    padding: 1rem 0;
     font-size: 1.2rem;
     color: white;
     a {
@@ -68,4 +67,18 @@
   h6 {
     color: #dedede;
   }
+}
+.contact-anchor {
+  display: block;
+  position: relative;
+  top: -112px;
+  visibility: hidden;
+}
+.fa-arrow-to-top {
+  color: white;
+  padding-right: 2rem;
+}
+
+.footer-bottom {
+  padding: 1rem;
 }
