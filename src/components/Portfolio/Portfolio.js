@@ -32,7 +32,7 @@ const Portfolio = props => {
                 This project was built during my third build week at Lambda
                 School with a team of 5 developers. It utilizes React, Express,
                 node, Styled-Components, Material Design, and has a wide backend
-                set of endpoints capturing data in SQLite.
+                set of endpoints passing around and capturing data in SQLite.
               </p>
             </CardText>
           </Card>
