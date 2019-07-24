@@ -67,15 +67,13 @@ class About extends React.Component {
                   problem solving. I also had people who were invested in,
                   committed to, and believed in me. I spent nearly 10 years as a
                   Special Education teacher and co-taught secondary and high
-                  school mathematics, and I gave my all every day. I've looked
-                  in my daughter's eyes when it was hard for her to tell the
-                  truth and told her I that loved her no matter what. I've stood
-                  face to face with some hard truths and learned from them. I
-                  was never alone though. This is one of the things that makes
-                  me want to give back to others in any way I can, and being a
-                  software engineer is just one of the ways. I want to
-                  continuing making investments in others like so many have for
-                  me.
+                  school mathematics. I gave my all every day. I've given all
+                  the love I have to my wife, son, and daughter. I've stood in
+                  the face of some hard truths and learned from them. I was
+                  never alone though. This are a few of the things that make me
+                  want to give back to others in any way I can, and being a
+                  software engineer is just one of the ways. I want to continue
+                  making investments in others like so many have for me.
                 </p>
               </p>
             </p>
