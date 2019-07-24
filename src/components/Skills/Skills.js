@@ -9,9 +9,12 @@ const Skills = props => {
         <Col md='8' className='text-center about-top'>
           <h1>Skills are not exactly unique</h1>
           <p className='about-text'>
-            Technical skills sometimes work best with a combination
-            understanding skill application and creativity. This isn't a list of
-            skills but rather thoughts on how they apply.
+            Technical skills work best when understanding not only
+            <span className='font-italic'> where</span> those skills can be
+            applied, but <span className='font-italic'> how</span> we can solve
+            problems with creativity and in unique and efficient ways. This
+            isn't a list of skills but rather thoughts on how they are relevant
+            to me.
           </p>
         </Col>
       </Row>
@@ -28,16 +31,14 @@ const Skills = props => {
                   Frontend Development
                 </h6>
                 <p className='lead text-left'>
-                  There are so many issues that impact users and complex
-                  problems that developers encounter every single day. I love
-                  writing JavaScript to find solutions to those issues and to
-                  solve them in the cleanest and most efficient way possible.
-                  One of the most effective approaches for me to solve a problem
-                  or challenge is being able to stop and think critically about
-                  what needs to be done in a logical way -- then creating a plan
-                  to make it happen and thinking about any deviations that come
-                  along. Being dynamic and flexible is also useful for being
-                  able to view things a different way than normal.
+                  There are countless issues that impact users on a daily basis.
+                  I am not immune to those. There are multitudes of complex
+                  challenges that engineers encounter daily as well. I also, am
+                  not immune to those. Having the skill set and aptitude to find
+                  solutions to those issues and to solve them is fundamental. I
+                  love that JavaScript allows me to explore potential solutions
+                  to definite problems in not just best practice ways but also
+                  in ways that are derived from my own unique thought process.
                 </p>
               </CardText>
             </CardBody>
@@ -53,17 +54,17 @@ const Skills = props => {
               <CardText>
                 <h6 className='font-weight-bold'>User Experience</h6>
                 <p className='lead text-left'>
-                  There's a lot of power in elegant but functional design --
-                  despite working with things that can be conceptually
-                  simplistic or complex. No matter the case however there is
-                  always a user context that should be considered during
-                  development. It's not the most common skill to have the
-                  ability as a developer to have a vision and then to execute it
-                  in a meaningful way for users. Being able to visualize things
-                  in a different way than others do is a skill that isn't overly
-                  technical in nature, but when combined with technical skills,
-                  can create powerful interactions that leave a user with a
-                  positive view.
+                  There's a lot of power in elegant and aesthetically pleasing
+                  design. To that end, working with things that can be
+                  conceptually complex and be subversive to development.
+                  Usability and functionality is imperative but those are not
+                  exclusive to having poor design standards. It's not the most
+                  common skill to have the ability as a developer to have a
+                  vision and then to execute it in a meaningful way for users.
+                  Being able to visualize things in a different way than others
+                  do is a skill that isn't overly technical in nature, but when
+                  combined with technical skills, can create powerful
+                  interactions that leave a user with a positive view.
                 </p>
               </CardText>
             </CardBody>
