@@ -34,8 +34,8 @@ const Skills = props => {
             potential solutions to things that are absolute problems. Not just
             in best practice ways -- but also in ways that follow best practice
             but are derived from my own unique thought process. I thrive when I
-            am challenged -- not just in developing stronger technological
-            skills but also intellectually and in personal growth.
+            am challenged -- not just in developing stronger technical skills
+            but also intellectually and in personal growth.
           </p>
           <p className='about-text text-left about-bump'>
             There's a lot of power in elegant and aesthetically pleasing design.
