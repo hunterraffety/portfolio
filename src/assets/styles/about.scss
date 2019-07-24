@@ -4,12 +4,15 @@
   background-image: url('https://raw.githubusercontent.com/hunterraffety/portfolio/hunter-raffety/src/assets/img/phoenix.png');
   background-size: cover;
   background-position: center;
+  #about {
+    text-shadow: 2px 1px 3px #000;
+  }
   .lead {
     line-height: 1.5;
     font-size: 1rem;
   }
   .about-intro {
-    margin: 2rem 0;
+    margin: 2rem 0 0 0;
     h1 {
       margin: 0;
       font: 44px 'Montserrat', sans-serif;
@@ -18,12 +21,11 @@
     }
     .about-text {
       line-height: 2;
-      margin: 0.2rem;
+      p:last-child {
+        padding-bottom: 3.5rem;
+      }
       .emphasis {
         font-style: italic;
-      }
-      p:last-child {
-        padding-bottom: 2rem;
       }
       h6 {
         margin: 0.5rem 0;
@@ -50,10 +52,19 @@
       padding-bottom: 1rem;
     }
   }
-}
-i.fa-heart {
-  color: crimson;
-  text-shadow: 1px 1px black;
+  .social {
+    padding: 1rem 0;
+    a {
+      color: rgba(53, 53, 53, 0.8);
+      &:hover {
+        color: #8b8b8bc0;
+      }
+    }
+    i {
+      padding: 1rem;
+      text-shadow: 1px 1px 5px rgb(128, 128, 128) !important;
+    }
+  }
 }
 .about-anchor {
   display: block;

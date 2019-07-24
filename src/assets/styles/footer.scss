@@ -26,21 +26,7 @@
   textarea {
     height: 10rem;
   }
-  .social {
-    padding: 1rem 0;
-    font-size: 1.2rem;
-    color: white;
-    a {
-      color: #dedede;
-      &:hover {
-        color: rgb(141, 141, 141);
-      }
-    }
-    i {
-      padding: 1rem;
-      text-shadow: 1px 1px 5px #000 !important;
-    }
-  }
+
   h1 {
     text-shadow: 3px 2px 5px #000 !important;
   }
@@ -49,14 +35,6 @@
   }
   .pad-top {
     padding-top: 3rem;
-  }
-  .social-line:before {
-    content: ''; /* This is necessary for the pseudo element to work. */
-    display: block; /* This will put the pseudo element on its own line. */
-    margin: 0 auto; /* This will center the border. */
-    width: 60%; /* Change this to whatever width you want. */
-    border-bottom: 1px solid #dedede; /* This creates the border. Replace black with whatever color you want. */
-    box-shadow: 1px 1px black;
   }
   form {
     margin: 0 auto;

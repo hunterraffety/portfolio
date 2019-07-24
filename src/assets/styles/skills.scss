@@ -2,6 +2,9 @@
   padding: 1rem;
   background-color: #dedede;
   font-family: 'Montserrat', sans-serif;
+  .skills-unique {
+    text-shadow: 2px 1px 3px #000;
+  }
   .skills-anchor {
     display: block;
     position: relative;
@@ -84,8 +87,5 @@
       line-height: 2;
       color: #414141;
     }
-  }
-  .skills-bottom {
-    padding-bottom: 3rem;
   }
 }

@@ -55,31 +55,7 @@ class Footer extends React.Component {
             </Row>
           </Form>
         </Row>
-        <Row className='justify-content-md-center social social-line'>
-          <Col md='6' className='text-center pad-top'>
-            <a
-              href='https://github.com/hunterraffety'
-              rel='noopener noreferrer'
-              target='_blank'
-            >
-              <i class='fab fa-github' />
-            </a>
-            <a
-              href='https://linkedin.com/in/huntersraffety'
-              rel='noopener noreferrer'
-              target='_blank'
-            >
-              <i class='fab fa-linkedin' />
-            </a>
-            <a
-              href='https://twitter.com/_hunterraffety'
-              rel='noopener noreferrer'
-              target='_blank'
-            >
-              <i class='fab fa-twitter' />
-            </a>
-          </Col>
-        </Row>
+
         <Row>
           <Col className='text-right'>
             <a href='#home'>

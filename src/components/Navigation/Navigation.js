@@ -42,16 +42,25 @@ export default class Navigation extends React.Component {
               <NavLink href='#contact-anchor'>Contact</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href='https://github.com/hunterraffety' target='_blank'>
-                <i class='fab fa-github' />
-              </NavLink>
-            </NavItem>
-            <NavItem>
               <NavLink
                 href='https://linkedin.com/in/huntersraffety'
                 target='_blank'
               >
                 <i class='fab fa-linkedin-in' />
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href='https://github.com/hunterraffety' target='_blank'>
+                <i class='fab fa-github' />
+              </NavLink>
+            </NavItem>
+
+            <NavItem>
+              <NavLink
+                href='https://linkedin.com/in/huntersraffety'
+                target='_blank'
+              >
+                <i class='fab fa-twitter' />
               </NavLink>
             </NavItem>
           </Nav>
