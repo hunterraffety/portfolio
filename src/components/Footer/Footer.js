@@ -13,7 +13,7 @@ class Footer extends React.Component {
     return (
       <div className='footer-container'>
         <a href='#' className='contact-anchor' id='contact-anchor' />
-        <Row className='justify-content-md-center footer-intro'>
+        <Row className='justify-content-center footer-intro'>
           <Col className='text-center footer-intro-text' md='6'>
             <h1 className='text_shadow'>Get in touch with me.</h1>
           </Col>

@@ -6,12 +6,12 @@ const Portfolio = props => {
   return (
     <div className='portfolio-container align-items-center'>
       <a href='#' className='portfolio-anchor' id='portfolio-anchor' />
-      <Row className='portfolio-text-content justify-content-md-center'>
+      <Row className='portfolio-text-content justify-content-md-center '>
         <Col className='top' md='auto'>
           <h1 className='text-center'>Selected projects</h1>
         </Col>
       </Row>
-      <Row className='justify-content-md-center portfolio-content'>
+      <Row className='d-flex justify-content-md-center portfolio-content'>
         <Col md='8'>
           <Card className='card-top'>
             <a
@@ -79,8 +79,8 @@ const Portfolio = props => {
           </Card>
         </Col>
       </Row>
-      <Row className='justify-content-md-center portfolio-content'>
-        <Col md='8'>
+      <Row className='justify-content-md-center justify-content-xs-center portfolio-content'>
+        <Col md='8' xs='auto'>
           <Card className='card-top'>
             <a
               href='https://hr-igclone.netlify.com/'

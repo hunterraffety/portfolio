@@ -21,7 +21,7 @@ class About extends React.Component {
     return (
       <div className='about-container'>
         <a href='#' className='about-anchor' id='about-anchor' />
-        <Row className='justify-content-md-center'>
+        <Row className='justify-content-md-center justify-content-xs-center'>
           <Col className='about-intro text-center' md='8'>
             <h1 id='about'>Who am I?</h1>
             <p className='lead text-left'>
@@ -81,7 +81,7 @@ class About extends React.Component {
           </Col>
         </Row>
         <Row className='justify-content-md-end skills-top d-flex align-items-top'>
-          <Col className='text-right left-bump' md='auto'>
+          <Col className='text-right' md='auto'>
             <a href='#home'>
               <i class='fal fa-arrow-to-top fa-2x dark' />
             </a>
