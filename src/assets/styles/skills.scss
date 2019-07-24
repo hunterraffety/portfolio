@@ -2,6 +2,7 @@
   padding: 1rem 0 1rem 0;
   background-color: #dedede;
   font-family: 'Montserrat', sans-serif;
+  width: 100%;
   .test1 {
     padding: 5rem 0 !important;
   }
@@ -43,10 +44,7 @@
   }
   .skills-top,
   .skills-bottom {
-    margin: 1rem;
-    .card {
-      margin: 1rem;
-    }
+    margin: 1rem 0;
   }
   .skill {
     i.fa-js-square {
@@ -94,4 +92,7 @@
       color: #414141;
     }
   }
+}
+.dark {
+  color: black !important;
 }

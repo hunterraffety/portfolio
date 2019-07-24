@@ -2,7 +2,7 @@
   background-color: rgb(34, 40, 51);
   font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 4rem 0;
-
+  overflow: hidden;
   .footer-desc {
     padding-bottom: 2.5rem;
     font-size: 1.2rem;
@@ -58,8 +58,9 @@ button {
   visibility: hidden;
 }
 .fa-arrow-to-top {
-  color: white;
-  padding-right: 2rem;
+  color: #dedede;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
 }
 
 .footer-bottom {

@@ -4,8 +4,12 @@
   background-image: url('https://raw.githubusercontent.com/hunterraffety/portfolio/hunter-raffety/src/assets/img/phoenix.png');
   background-size: cover;
   background-position: center;
+  overflow: hidden;
   #about {
     text-shadow: 2px 1px 3px #000;
+  }
+  .left-bump {
+    padding-right: 2rem;
   }
   .about-bump {
     padding: 5rem 0;
@@ -74,4 +78,10 @@
   position: relative;
   top: -51px;
   visibility: hidden;
+}
+
+.dark {
+  color: black !important;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
 }

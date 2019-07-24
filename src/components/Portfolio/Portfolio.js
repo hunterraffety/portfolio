@@ -114,7 +114,14 @@ const Portfolio = props => {
             </CardText>
           </Card>
         </Col>
-      </Row>
+      </Row>{' '}
+      <Col className='justify-content-md-end skills-top d-flex align-items-top'>
+        <Col className='text-right' md='auto'>
+          <a href='#home'>
+            <i class='fal fa-arrow-to-top fa-2x' />
+          </a>
+        </Col>
+      </Col>
     </div>
   );
 };
