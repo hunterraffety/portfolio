@@ -70,10 +70,11 @@ class About extends React.Component {
                   school mathematics. I gave my all every day. I've given all
                   the love I have to my wife, son, and daughter. I've stood in
                   the face of some hard truths and learned from them. I was
-                  never alone though. This are a few of the things that make me
-                  want to give back to others in any way I can, and being a
-                  software engineer is just one of the ways. I want to continue
-                  making investments in others like so many have for me.
+                  never alone though. These are a few of the things that make me
+                  want to give back to others in any way I am capable of. Being
+                  a software engineer is just one of the ways. I want to
+                  continue making investments in others like so many have for
+                  me.
                 </p>
               </p>
             </p>
