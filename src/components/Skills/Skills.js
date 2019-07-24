@@ -53,15 +53,17 @@ const Skills = props => {
               <CardText>
                 <h6 className='font-weight-bold'>User Experience</h6>
                 <p className='lead text-left'>
-                  There's a lot of power in elegant design. Things may be simple
-                  or they may be complex -- there is always a context that
-                  should be considered though. It's a powerful skill to be able
-                  to understand what it's like to be a user and to understand
-                  their experiences. Being able to visualize things in a
-                  different way than others do is a skill that falls outside of
-                  the technical realm, but when combined with technical skills
-                  can create powerful and meaningful interactions that leave a
-                  user with knowledge of why they use an application.
+                  There's a lot of power in elegant but functional design --
+                  despite working with things that can be conceptually
+                  simplistic or complex. No matter the case however there is
+                  always a user context that should be considered during
+                  development. It's not the most common skill to have the
+                  ability as a developer to have a vision and then to execute it
+                  in a meaningful way for users. Being able to visualize things
+                  in a different way than others do is a skill that isn't overly
+                  technical in nature, but when combined with technical skills,
+                  can create powerful interactions that leave a user with a
+                  positive view.
                 </p>
               </CardText>
             </CardBody>
@@ -79,10 +81,16 @@ const Skills = props => {
               <CardText>
                 <h6 className='font-weight-bold'>Backend Development</h6>
                 <p className='lead text-left'>
-                  Having access to complete server-side tasks is what modern web
-                  application with JavaScript is all about. In conjunction with
-                  the libraries that developers use, node is vital to
-                  development web applications that are functional and usable.
+                  As the web continues to evolve we see a continued shift into
+                  more and more data-intensive and demanding applications.
+                  Having the ability to combine backend development along with
+                  frontend development is a dream come true for a full-stack
+                  engineer. It's fully possible and a widely accepted to develop
+                  and deploy an application out of a single codebase. This
+                  allows for rapid and robust application deployment as
+                  development teams now can work with a singular code base for
+                  applications. This has the benefit of enhancing collaboration
+                  among peers and enhancing a team focused culture.
                 </p>
               </CardText>
             </CardBody>
@@ -101,11 +109,12 @@ const Skills = props => {
                   It is no surprise that data persistence is absolutely
                   essential to the way that the modern web works. The idea of
                   'saving things' may seem as simple as returning to a shopping
-                  cart on on a website. The efforts that go into planning,
-                  designing, and implementing data stores can be exceptionally
-                  complex. Approaching design in a logical and critical way
-                  allows for others following to make sense of the thinking
-                  behind implementation.
+                  cart on on a website but requires much more than that as a
+                  developer. The efforts that go into planning, designing, and
+                  implementing data stores can be exceptionally complex.
+                  Approaching a design in a logical and critical way allows for
+                  others following to make sense of the thinking behind
+                  implementation and improves application performance.
                 </p>
               </CardText>
             </CardBody>
