@@ -12,7 +12,7 @@ const Portfolio = props => {
         </Col>
       </Row>
       <Row className='justify-content-md-center portfolio-content'>
-        <Col md='6'>
+        <Col md='8'>
           <Card className='card-top'>
             <a
               href='https://ls-umts.netlify.com/'
@@ -46,7 +46,7 @@ const Portfolio = props => {
         </Col>
       </Row>
       <Row className='justify-content-md-center portfolio-content'>
-        <Col md='6'>
+        <Col md='8'>
           <Card className='card-top'>
             <a
               href='https://hr-buildweek-ui.netlify.com/'
@@ -80,7 +80,7 @@ const Portfolio = props => {
         </Col>
       </Row>
       <Row className='justify-content-md-center portfolio-content'>
-        <Col md='6'>
+        <Col md='8'>
           <Card className='card-top'>
             <a
               href='https://hr-igclone.netlify.com/'

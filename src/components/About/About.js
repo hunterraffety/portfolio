@@ -22,7 +22,7 @@ class About extends React.Component {
       <div className='about-container'>
         <a href='#' className='about-anchor' id='about-anchor' />
         <Row className='justify-content-md-center'>
-          <Col className='about-intro text-center' md='6'>
+          <Col className='about-intro text-center' md='8'>
             <h1 id='about'>Who am I?</h1>
             <p className='lead text-left'>
               <p className='about-text'>
