@@ -56,7 +56,7 @@ class Footer extends React.Component {
           </Form>
         </Row>
 
-        <Row className='justify-content-md-center'>
+        <Row className='justify-content-md-end footer-bottom'>
           <Col className='text-right' md='auto'>
             <a href='#home'>
               <i class='fal fa-arrow-to-top fa-2x dark' />
