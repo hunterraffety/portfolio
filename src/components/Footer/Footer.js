@@ -25,7 +25,13 @@ class Footer extends React.Component {
               <Col md={6}>
                 <FormGroup>
                   <Label for='name'>Name</Label>
-                  <Input type='name' name='name' id='name' placeholder='Name' />
+                  <Input
+                    type='name'
+                    name='name'
+                    id='name'
+                    placeholder='Name'
+                    required
+                  />
                 </FormGroup>
               </Col>
               <Col md={6}>
@@ -36,6 +42,7 @@ class Footer extends React.Component {
                     name='email'
                     id='email'
                     placeholder='email'
+                    required
                   />
                 </FormGroup>
               </Col>
@@ -44,7 +51,7 @@ class Footer extends React.Component {
               <Col>
                 <FormGroup>
                   <Label for='text'>Comments</Label>
-                  <Input type='textarea' name='text' id='text' />
+                  <Input type='textarea' name='text' id='text' required />
                 </FormGroup>
               </Col>
             </Row>

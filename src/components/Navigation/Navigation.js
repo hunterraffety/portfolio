@@ -57,7 +57,7 @@ export default class Navigation extends React.Component {
 
             <NavItem>
               <NavLink
-                href='https://linkedin.com/in/huntersraffety'
+                href='https://twitter.com/_hunterraffety'
                 target='_blank'
               >
                 <i class='fab fa-twitter' />

@@ -22,7 +22,7 @@ const Portfolio = props => {
               <CardImg
                 top
                 width='100%'
-                src='https://raw.githubusercontent.com/hunterraffety/portfolio/hunter-raffety/src/assets/img/umts.png'
+                src='https://raw.githubusercontent.com/hunterraffety/portfolio/hunter-raffety/src/assets/img/umts_mu.png'
                 alt='Use My Tech Stuff'
               />
             </a>
@@ -56,7 +56,7 @@ const Portfolio = props => {
               <CardImg
                 top
                 width='100%'
-                src='https://raw.githubusercontent.com/hunterraffety/portfolio/hunter-raffety/src/assets/img/educell.png'
+                src='https://raw.githubusercontent.com/hunterraffety/portfolio/hunter-raffety/src/assets/img/educell_mu.png'
                 alt='Educell'
               />
             </a>
@@ -90,7 +90,7 @@ const Portfolio = props => {
               <CardImg
                 top
                 width='100%'
-                src='https://raw.githubusercontent.com/hunterraffety/portfolio/hunter-raffety/src/assets/img/react-insta.png'
+                src='https://raw.githubusercontent.com/hunterraffety/portfolio/hunter-raffety/src/assets/img/insta_mu.png'
                 alt='React Instagram Clone'
               />
             </a>
