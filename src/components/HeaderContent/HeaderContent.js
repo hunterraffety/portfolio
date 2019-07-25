@@ -15,7 +15,7 @@ export default function HeaderContent() {
           </p>
           <p className='cta-button text-left text-xs-center'>
             <a href='#portfolio-anchor' className='button '>
-              Selected Works
+              Selected Projects
             </a>
           </p>
         </Col>

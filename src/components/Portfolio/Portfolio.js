@@ -114,14 +114,14 @@ const Portfolio = props => {
             </CardText>
           </Card>
         </Col>
-      </Row>{' '}
-      <Col className='justify-content-md-end d-flex align-items-top footer-bottom'>
+      </Row>
+      {/* <Col className='justify-content-md-end d-flex align-items-top footer-bottom'>
         <Col className='text-right' md='auto'>
           <a href='#home'>
             <i class='fal fa-arrow-to-top fa-2x' />
           </a>
         </Col>
-      </Col>
+      </Col> */}
     </div>
   );
 };
