@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col, Button, Form, FormGroup, Label, Input } from 'reactstrap';
+import Obfuscate from 'react-obfuscate';
 
 class Footer extends React.Component {
   constructor(props) {
@@ -72,7 +73,12 @@ class Footer extends React.Component {
         </Row> */}
         <Row className='justify-content-md-center'>
           <Col md='6' className='text-center footer-bottom'>
-            <h6>&copy; Hunter Raffety | 2019</h6>
+            <h6 class='obfuscated-email'>
+              <address>
+                or email: <Obfuscate email='hsraffety@gmail.com' />
+              </address>
+              <p class='copy-text'>&copy; Hunter Raffety | 2019</p>
+            </h6>
           </Col>
         </Row>
       </div>
