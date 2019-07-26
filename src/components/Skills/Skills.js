@@ -35,11 +35,12 @@ const Skills = props => {
             problems exist that can't be solved with adequate effort -- and
             that's exciting. It's very empowering that JavaScript enables
             developers to explore an almost endless variety of solutions for
-            things in development that are absolute problems. Not just in best
-            practice ways but in ways that adhere to best practice but are
-            derived from my own unique thought process and contributions. I
-            thrive when I am challenged -- because it doesn't just develop
-            strong technical skills but also because challenges lead to growth.
+            things in development that are absolute problems. Not only in best
+            practice ways -- but in ways that adhere to best practice and are
+            derived from the unique thought process I have, and contributions I
+            make. Said plainly, I thrive when I am challenged -- it doesn't just
+            develop strong technical skills but it also leads to growth
+            personally and professionally.
           </p>
           <p className='about-text text-left about-bump'>
             There's a lot of power in elegant and aesthetically pleasing design.
