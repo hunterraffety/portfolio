@@ -39,7 +39,7 @@ const Skills = props => {
             practice ways -- but in ways that adhere to best practice and are
             derived from the unique thought process I have, and contributions I
             make. Said plainly, I thrive when I am challenged -- it doesn't just
-            develop strong technical skills but it also leads to growth
+            develop strong technical skills -- it also leads to growth
             personally and professionally.
           </p>
           <p className='about-text text-left about-bump'>
