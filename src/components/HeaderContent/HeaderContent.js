@@ -14,7 +14,7 @@ export default function HeaderContent() {
             </span>
           </p>
           <p className='cta-button text-left text-xs-center'>
-            <a href='#portfolio-anchor' className='button '>
+            <a href='#portfolio-anchor' className='button'>
               Selected Projects
             </a>
           </p>

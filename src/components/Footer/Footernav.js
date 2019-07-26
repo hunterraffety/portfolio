@@ -6,7 +6,6 @@ export default function App() {
   return (
     <div class='footer-margin'>
       <StickyFooter
-        className='justify-content-md-end'
         bottomThreshold={30}
         normalStyles={{
           backgroundColor: 'rgb(34, 40, 51)',
