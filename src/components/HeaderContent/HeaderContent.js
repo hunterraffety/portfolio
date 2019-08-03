@@ -9,14 +9,11 @@ export default function HeaderContent() {
         <Col className='cta-middle text-md-left' auto='true'>
           <p>
             <span className='emphasis-lg'>Hi! I'm Hunter. </span>
-            <span className='emphasis-md'>
-              I'm a full-stack engineer from Phoenix, Arizona.
-            </span>
-          </p>
-          <p className='cta-button text-left text-xs-center'>
-            <a href='#portfolio-anchor' className='button'>
-              Selected Projects
-            </a>
+            <p>
+              <span className='emphasis-md'>
+                I'm a full-stack engineer from Phoenix.
+              </span>
+            </p>
           </p>
         </Col>
       </Row>
