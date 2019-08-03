@@ -7,7 +7,7 @@ const Skills = props => {
       <a href='#' className='skills-anchor' id='skills-anchor' />
       <Row className='justify-content-md-center skills-top d-flex align-items-top'>
         <Col md='8' className='text-center about-top'>
-          <h1 className='skills-unique'>Skills are not exactly unique</h1>
+          <h1 className='skills-unique'>I do</h1>
           <p className='about-text text-left'>
             Technical skills work best when engineers understand not just
             <span className='font-italic'> where</span> specific skills can be

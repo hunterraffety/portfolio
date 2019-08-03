@@ -23,58 +23,42 @@ class About extends React.Component {
         <a href='#' className='about-anchor' id='about-anchor' />
         <Row className='justify-content-md-center justify-content-xs-center'>
           <Col className='about-intro text-center' md='8'>
-            <h1 id='about'>Who am I?</h1>
+            <h1 id='about'>I am</h1>
             <p className='lead text-left'>
               <p className='about-text'>
                 <h6 className='text-center font-weight-bold'>
                   In pursuit of growth
                 </h6>
                 <p>
-                  I'm not the same person that I was when I woke up yesterday.
-                  Today I am the best version of me that I have to offer. Make
-                  no mistake however -- that doesn't mean that I don't have a
-                  relentless desire to become better or that I'm content with
-                  who I am today. I mean,{' '}
-                  <span className='font-italic'>
-                    I am pretty great, but I know I can become greater.
-                  </span>{' '}
-                  Every night I fall asleep I do so knowing that I did something
-                  during my day to become a better person.
+                  I woke up today a better person than when I woke up yesterday.
+                  That doesn't mean that I don't have a relentless drive to
+                  become better today though.{' '}
+                  <span className='font-italic'>I am pretty great</span>, but I
+                  know I can do more. It makes sense to me that if I can do
+                  amazing things in life, I'm just going to go ahead and do
+                  those things.
                 </p>
                 <h6 className='text-center font-weight-bold'>Relentless</h6>
                 <p>
-                  It's a fair and honest admission to say that I haven't always
-                  succeeded as much as I believe I should -- or that I've met
-                  all of the high expectations that I set for myself.{' '}
-                  <span className='font-italic'>That's okay.</span> That doesn't
-                  mean that I'll ever stop trying with every skill and resource
-                  that I have -- it also doesn't mean that I won't look to
-                  others around me when I need help. It's okay to ask for help.
-                  I will apply all of the knowledge I have learned through
-                  personal experiences, professional experiences, and education
-                  to figure out the ways I can best tackle a challenge or solve
-                  a problem.
+                  I decided a long time ago that I can't allow barriers prevent
+                  me from being successful. I'm going to make use of every skill
+                  and resource that I have along with all of the things I have
+                  learned during my life to find success. I'll also look to
+                  others around me when I need help and support.{' '}
+                  <span className='font-italic'>It's okay to ask for help</span>
+                  .
                 </p>
                 <h6 className='text-center font-weight-bold'>
                   A champion of others
                 </h6>
                 <p>
                   Nobody in life achieves anything great without the help of
-                  someone else somewhere along the way. I'd be arrogant and
-                  selfish to say that I have achieved everything on my own.{' '}
-                  <span className='font-italic'>I didn't.</span> Achievement
-                  requires strong work ethic, time, and critical thought &
-                  problem solving. I also had people who were invested in,
-                  committed to, and believed in me. I spent nearly 10 years as a
+                  someone else.{' '}
+                  <span className='font-italic'>I know that I haven't.</span> I
+                  have people who are invested in me and believe in me. I was a
                   Special Education teacher and co-taught secondary and high
-                  school mathematics. I gave my all every day. I've given all
-                  the love I have to my wife, son, and daughter. I've stood in
-                  the face of some hard truths and learned from them. I was
-                  never alone though. These are a few of the things that make me
-                  want to give back to others in any way I am capable of. I want
-                  to make continued investments in others like so many have for
-                  me. Being a software engineer is just one of the ways I can do
-                  that.
+                  school mathematics -- I gave my all every day. I want to give
+                  back to others in any way I am capable of.
                 </p>
               </p>
             </p>

@@ -8,7 +8,7 @@ const Portfolio = props => {
       <a href='#' className='portfolio-anchor' id='portfolio-anchor' />
       <Row className='portfolio-text-content justify-content-md-center '>
         <Col className='top' md='auto'>
-          <h1 className='text-center'>Selected projects</h1>
+          <h1 className='text-center'>I made</h1>
         </Col>
       </Row>
       <Row className='d-flex justify-content-md-center portfolio-content'>
@@ -36,10 +36,10 @@ const Portfolio = props => {
               </a>
               <p className='text-left'>
                 Use My Tech Stuff is a high-end equipment sharing marketplace.
-                This project was built during my third build week at Lambda
-                School with a team of 5 developers. It utilizes React, Express,
-                node, Styled-Components, Material Design, and has a wide backend
-                set of endpoints passing around and capturing data in SQLite.
+                Members can rent a variety of gear from a community of equipment
+                owners across the US. You’ll be able to choose from a diverse
+                selection of cameras, laptops, speakers, monitors, and more in
+                whatever city you want.
               </p>
             </CardText>
           </Card>
@@ -71,9 +71,7 @@ const Portfolio = props => {
               <p className='text-left'>
                 Educell is a platform for delivering seamless collaboration and
                 communication tools for those who have a vested interest in
-                positive, student centered outcomes. This was built during my
-                first build week at Lambda School. It utilizes JavaScript, SASS,
-                and responsive design.
+                positive, student centered outcomes.
               </p>
             </CardText>
           </Card>
@@ -101,15 +99,13 @@ const Portfolio = props => {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  React Instagram Clone
+                  Instagram Clone
                 </a>
               </h6>
               <p className='text-left'>
-                The React Instagram Clone project is a deep dive into React and
-                Redux. It was built using functional and class components, as
-                well as pulling in data from a backend API. This project was
-                intended to mirror the functionality of Instagram as closely as
-                possible.
+                I think most people know what Instagram is. It's a social media
+                platform that allow users to post media, share comments and
+                posts, and like posts.
               </p>
             </CardText>
           </Card>
