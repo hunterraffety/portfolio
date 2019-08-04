@@ -13,7 +13,7 @@ function Skills() {
       <Row className='d-flex justify-content-center skills-top'>
         <Col md='4' sm='12' className='about-col d-flex justify-content-center'>
           <p className='about-text'>
-            I love to work with tech.
+            I love building things with technology!
             <ul>
               <li>Javascript</li>
               <li>React</li>
@@ -22,12 +22,13 @@ function Skills() {
               <li>Express</li>
               <li>API Development</li>
               <li>Postgres | Sqlite3 | Mongo</li>
+              <li>HTML & CSS (SASS)</li>
             </ul>
           </p>
         </Col>{' '}
         <Col md='4' sm='12' className='about-col d-flex justify-content-center'>
           <p className='about-text'>
-            I have a lot of interests as well.
+            I have a lot of interests as well!
             <ul>
               <li>Performing stand-up comedy</li>
               <li>Working with others</li>
@@ -35,6 +36,7 @@ function Skills() {
               <li>Creating music with friends</li>
               <li>Exploring new restaurants</li>
               <li>Working on cars</li>
+              <li>Learning new things</li>
               <li>Pick-up basketball</li>
             </ul>
           </p>

@@ -14,7 +14,7 @@ function Footer() {
       <Row className='justify-content-md-center'>
         <Col md='6' className='text-center footer-bottom'>
           <h6 class='obfuscated-email'>
-            My name is Hunter, remember?
+            My name is Hunter! You remember, right?
             <address>
               email me - <Obfuscate email='hsraffety@gmail.com' />
             </address>
