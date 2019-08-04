@@ -5,13 +5,13 @@ function Skills() {
   return (
     <div className='skills-container' id='skills'>
       <a href='#' className='skills-anchor' id='skills-anchor' />
-      <Row className='d-flex justify-content-center skills-top'>
-        <Col className='d-flex justify-content-center'>
-          <h1>Skills & interests.</h1>
+      <Row className='d-flex justify-content-center'>
+        <Col md='12' sm='12' className='d-flex justify-content-center'>
+          <h1 className='skills-header'>Skills & interests.</h1>
         </Col>
       </Row>
-      <Row className='d-flex justify-content-center skills-top'>
-        <Col md='4' sm='12' className='about-col d-flex justify-content-center'>
+      <Row className='d-flex justify-content-center'>
+        <Col md='4' className='d-flex justify-content-center'>
           <p className='about-text'>
             I love building things with technology!
             <ul>
@@ -25,19 +25,20 @@ function Skills() {
               <li>HTML & CSS (SASS)</li>
             </ul>
           </p>
-        </Col>{' '}
-        <Col md='4' sm='12' className='about-col d-flex justify-content-center'>
+        </Col>
+        <Col md='4' className='d-flex justify-content-center'>
           <p className='about-text'>
-            I have a lot of interests as well!
+            I also have a lot of personal interests!
             <ul>
               <li>Performing stand-up comedy</li>
-              <li>Working with others</li>
-              <li>Academia</li>
+              <li>Working on vehicles</li>
               <li>Creating music with friends</li>
+              <li>Performing card magic</li>
               <li>Exploring new restaurants</li>
-              <li>Working on cars</li>
-              <li>Learning new things</li>
+              <li>Academia</li>
+              <li>Dogs.</li>
               <li>Pick-up basketball</li>
+              <li>Snowboarding / skateboarding</li>
             </ul>
           </p>
         </Col>

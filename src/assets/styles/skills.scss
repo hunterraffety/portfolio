@@ -1,13 +1,13 @@
 .skills-container {
-  padding: 2rem 0;
+  padding: 3rem 2rem;
   background-color: #dedede;
   font-family: 'Montserrat', sans-serif;
   width: 100%;
   min-height: 50vh;
   ul {
     list-style-type: square;
-    margin-left: 1.5rem;
     li {
+      margin-left: 1.5rem;
     }
   }
   .about-bump {
@@ -37,22 +37,14 @@
   }
   .about-text {
     line-height: 2;
-    text-align: left;
+  }
+  .skills-header {
+    padding: 1rem;
   }
   .skills-intro {
     margin: 2rem 0;
-    h1 {
-      margin: 0;
-      font: 44px 'Montserrat', sans-serif;
-      position: relative;
-      color: rgb(255, 255, 255);
-    }
   }
-  .skills-top,
-  .skills-bottom {
-    margin: 1rem 0;
-    width: 100%;
-  }
+
   .skill {
     i.fa-js-square {
       color: #f0db4f;

@@ -6,7 +6,7 @@ export default function HeaderContent() {
   return (
     <Container className='hc-container'>
       <Row className='cta-middle-row'>
-        <Col className='cta-middle text-md-left' auto='true'>
+        <Col className='cta-middle text-md-left' auto='true' sm='12'>
           <p>
             <span className='emphasis-lg'>Hi! I'm Hunter. </span>
             <p>
