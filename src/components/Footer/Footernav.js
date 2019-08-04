@@ -8,7 +8,7 @@ export default function App() {
       <StickyFooter
         bottomThreshold={30}
         normalStyles={{
-          backgroundColor: 'rgb(34, 40, 51)',
+          backgroundColor: '#474647',
           padding: '1rem 2rem'
         }}
         stickyStyles={{

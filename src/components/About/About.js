@@ -64,13 +64,6 @@ class About extends React.Component {
             </p>
           </Col>
         </Row>
-        {/* <Row className='justify-content-md-end skills-top d-flex align-items-top footer-bottom'>
-          <Col className='text-right' md='auto'>
-            <a href='#home'>
-              <i class='fal fa-arrow-to-top fa-2x dark' />
-            </a>
-          </Col>
-        </Row> */}
       </div>
     );
   }

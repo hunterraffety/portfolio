@@ -103,21 +103,14 @@ const Portfolio = props => {
                 </a>
               </h6>
               <p className='text-left'>
-                I think most people know what Instagram is. It's a social media
-                platform that allow users to post media, share comments and
-                posts, and like posts.
+                Most people know what Instagram is! It's a social media platform
+                that allow users to post media, share comments and user posts,
+                as well as like posts.
               </p>
             </CardText>
           </Card>
         </Col>
       </Row>
-      {/* <Col className='justify-content-md-end d-flex align-items-top footer-bottom'>
-        <Col className='text-right' md='auto'>
-          <a href='#home'>
-            <i class='fal fa-arrow-to-top fa-2x' />
-          </a>
-        </Col>
-      </Col> */}
     </div>
   );
 };
