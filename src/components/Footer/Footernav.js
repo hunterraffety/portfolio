@@ -1,6 +1,6 @@
 import React from 'react';
 import StickyFooter from 'react-sticky-footer';
-import { Row, Col, Button, Form, FormGroup, Label, Input } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 
 export default function App() {
   return (

@@ -7,6 +7,7 @@ import {
   NavItem,
   NavLink
 } from 'reactstrap';
+import Headroom from 'react-headroom';
 
 export default class Navigation extends React.Component {
   constructor(props) {
@@ -25,47 +26,52 @@ export default class Navigation extends React.Component {
 
   render() {
     return (
-      <Navbar light expand='md' fixed='top'>
-        <NavbarToggler onClick={this.toggle} />
-        <Collapse isOpen={this.state.isOpen} navbar>
-          <Nav className='ml-auto text-center' navbar>
-            <NavItem>
-              <NavLink href='#about-anchor'>About</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href='#portfolio-anchor'>Portfolio</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href='#skills-anchor'>Skills</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href='#contact-anchor'>Contact</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink
-                href='https://linkedin.com/in/huntersraffety'
-                target='_blank'
-              >
-                <i class='fab fa-linkedin-in' />
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href='https://github.com/hunterraffety' target='_blank'>
-                <i class='fab fa-github' />
-              </NavLink>
-            </NavItem>
+      <Headroom>
+        <Navbar light expand='md' id='navbar'>
+          <NavbarToggler onClick={this.toggle} />
+          <Collapse isOpen={this.state.isOpen} navbar>
+            <Nav className='ml-auto text-center' navbar>
+              <NavItem>
+                <NavLink href='#about-anchor'>About</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href='#portfolio-anchor'>Portfolio</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href='#skills-anchor'>Skills</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href='#contact-anchor'>Contact</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  href='https://linkedin.com/in/huntersraffety'
+                  target='_blank'
+                >
+                  <i class='fab fa-linkedin-in' />
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  href='https://github.com/hunterraffety'
+                  target='_blank'
+                >
+                  <i class='fab fa-github' />
+                </NavLink>
+              </NavItem>
 
-            <NavItem>
-              <NavLink
-                href='https://twitter.com/_hunterraffety'
-                target='_blank'
-              >
-                <i class='fab fa-twitter' />
-              </NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
-      </Navbar>
+              <NavItem>
+                <NavLink
+                  href='https://twitter.com/_hunterraffety'
+                  target='_blank'
+                >
+                  <i class='fab fa-twitter' />
+                </NavLink>
+              </NavItem>
+            </Nav>
+          </Collapse>
+        </Navbar>
+      </Headroom>
     );
   }
 }

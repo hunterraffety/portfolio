@@ -1,16 +1,19 @@
 .skills-container {
-  padding: 1rem 0 1rem 0;
+  padding: 2rem 0;
   background-color: #dedede;
   font-family: 'Montserrat', sans-serif;
   width: 100%;
-  .test1 {
-    padding: 5rem 0 !important;
+  min-height: 50vh;
+  ul {
+    list-style-type: square;
+    margin-left: 1.5rem;
+    li {
+    }
   }
   .about-bump {
     padding: 2rem 0;
   }
   .skills-unique {
-    text-shadow: 2px 1px 3px #000;
     padding: 0 0 1.5rem 0;
   }
   .skills-anchor {
@@ -19,12 +22,14 @@
     top: -66px;
     visibility: hidden;
   }
-  .about-top {
-    padding: 0 0 0.3rem 0;
+  .about-col {
+    margin: 0 1rem;
+    padding: 0 0 1.5rem 0;
   }
   h1 {
     font-size: 3.2rem;
     color: #414141;
+    padding-bottom: 1rem;
   }
   .lead {
     line-height: 1.5;
@@ -32,6 +37,7 @@
   }
   .about-text {
     line-height: 2;
+    text-align: left;
   }
   .skills-intro {
     margin: 2rem 0;

@@ -2,8 +2,9 @@
   font-family: 'Raleway', sans-serif;
   color: white !important;
   letter-spacing: 0.1rem;
-  background-color: rgba(53, 53, 53, 0.8);
-  border-bottom: 3px solid black;
+  background-color: rgba(53, 53, 53, 0.95);
+  border-bottom: 1px solid black;
+  box-shadow: 10px 0px 5px rgba(53, 53, 53, 0.7);
   a {
     color: white !important;
     &:hover {
