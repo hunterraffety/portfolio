@@ -16,7 +16,7 @@ function Footer() {
           <h6 class='obfuscated-email'>
             My name is Hunter! You remember, right?
             <address>
-              email me - <Obfuscate email='hsraffety@gmail.com' />
+              email - <Obfuscate email='hsraffety@gmail.com' />
             </address>
           </h6>
         </Col>
