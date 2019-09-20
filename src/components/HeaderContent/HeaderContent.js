@@ -11,7 +11,7 @@ export default function HeaderContent() {
             <span className='emphasis-lg'>Hi! I'm Hunter. </span>
             <p>
               <span className='emphasis-md'>
-                I'm a full-stack engineer from Phoenix.
+                I'm a Full-Stack Engineer from Phoenix.
               </span>
             </p>
           </p>
