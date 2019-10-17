@@ -15,6 +15,71 @@ const Portfolio = props => {
         <Col md='8'>
           <Card className='card-top'>
             <a
+              href='https://endrsd.com/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <CardImg
+                top
+                width='100%'
+                src='https://raw.githubusercontent.com/hunterraffety/portfolio/hunter-raffety/src/assets/img/endrsd.png'
+                alt='endrsd'
+              />
+            </a>
+            <CardText className='text-center'>
+              <a
+                href='https://endrsd.com'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <h6 className='font-weight-bold'>endrsd</h6>
+              </a>
+              <p className='text-left'>
+                endrsd.com is a{' '}
+                <a href='https://lambdaschool.com/'>Lambda School</a> Labs (8
+                week capstone experience) product that serves as my capstone
+                project for my time at Lambda. Lambda School is/was our
+                stakeholder.{' '}
+                <a
+                  href='https://www.youtube.com/watch?v=V7-QyGETHas'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Product walk-through.
+                </a>
+              </p>
+              <br />
+              <p className='text-left'>
+                endrsd seeks to bridge the gap between technical curriculum and
+                career focused curriculum by solving the problem of of allowing
+                students to track and monitor their progress through the career
+                endorsement process independently. It also provides a career
+                coach dashboard to monitor, track, and reach out to students.
+              </p>
+              <br />
+              <p className='text-left'>
+                My contributions to this product among a team of 9 incredibly
+                talented engineers (6 full-stack web, 3 iOS) -- is in every area
+                of the full-stack web application. I helped architect the
+                front-end and back-end application through 2 product release
+                cycles and multiple product canvases. We also developed in
+                parallel with{' '}
+                <a
+                  href='https://fnd.io/#/us/iphone-app/1477644496-endrsd-by-lambda-school'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  a fully native iOS app.
+                </a>
+              </p>
+            </CardText>
+          </Card>
+        </Col>
+      </Row>
+      <Row className='d-flex justify-content-md-center portfolio-content'>
+        <Col md='8'>
+          <Card className='card-top'>
+            <a
               href='https://ls-umts.netlify.com/'
               target='_blank'
               rel='noopener noreferrer'
@@ -40,6 +105,15 @@ const Portfolio = props => {
                 owners across the US. You’ll be able to choose from a diverse
                 selection of cameras, laptops, speakers, monitors, and more in
                 whatever city you want.
+              </p>
+              <br />
+              <p className='text-left'>
+                This full stack application was developed using React, Express
+                and PostGres for the data provider. A fully-functional backend
+                API was written to connect the front-end web application
+                utilizing knex to the PostGres database to warehouse our
+                information. I contributed to the front-end react application
+                among a team of 3 engineers.
               </p>
             </CardText>
           </Card>
@@ -73,39 +147,12 @@ const Portfolio = props => {
                 communication tools for those who have a vested interest in
                 positive, student centered outcomes.
               </p>
-            </CardText>
-          </Card>
-        </Col>
-      </Row>
-      <Row className='justify-content-md-center justify-content-xs-center portfolio-content'>
-        <Col md='8' xs='auto'>
-          <Card className='card-top'>
-            <a
-              href='https://hr-igclone.netlify.com/'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <CardImg
-                top
-                width='100%'
-                src='https://raw.githubusercontent.com/hunterraffety/portfolio/hunter-raffety/src/assets/img/insta_mu.png'
-                alt='React Instagram Clone'
-              />
-            </a>
-            <CardText className='text-center'>
-              <h6 className='font-weight-bold'>
-                <a
-                  href='https://hr-igclone.netlify.com/'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  Instagram Clone
-                </a>
-              </h6>
+              <br />
               <p className='text-left'>
-                Most people know what Instagram is! It's a social media platform
-                that allow users to post media, share comments and user posts,
-                as well as like posts.
+                This was a project that was built for a stakeholder that
+                endeavors to connect low-income communities in developing
+                countries with a team of professionals to facilitate the
+                learning of their student.
               </p>
             </CardText>
           </Card>

@@ -22,6 +22,8 @@ function Skills() {
               <li>Express</li>
               <li>API Development</li>
               <li>Postgres | Sqlite3 | Mongo</li>
+              <li>Python</li>
+              <li>Django</li>
               <li>HTML & CSS (SASS)</li>
             </ul>
           </p>
@@ -32,6 +34,7 @@ function Skills() {
             <ul>
               <li>Performing stand-up comedy</li>
               <li>Working on vehicles</li>
+              <li>Subarus</li>
               <li>Creating music with friends</li>
               <li>Performing card magic</li>
               <li>Exploring new restaurants</li>
