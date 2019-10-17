@@ -45,7 +45,7 @@ const Portfolio = props => {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  Product walk-through.
+                  View our product showcase here.
                 </a>
               </p>
               <br />
@@ -65,11 +65,11 @@ const Portfolio = props => {
                 cycles and multiple product canvases. We also developed in
                 parallel with{' '}
                 <a
-                  href='https://fnd.io/#/us/iphone-app/1477644496-endrsd-by-lambda-school'
+                  href='https://apps.apple.com/us/app/endrsd/id1477644496?app=itunes&ign-mpt=uo%3D4'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  a fully native iOS app.
+                  a fully native iOS app. (App store link)
                 </a>
               </p>
             </CardText>
