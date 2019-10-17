@@ -45,7 +45,7 @@ const Portfolio = props => {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  View our product showcase here.
+                  View our product showcase.
                 </a>
               </p>
               <br />
@@ -69,7 +69,7 @@ const Portfolio = props => {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  a fully native iOS app. (App store link)
+                  a fully native iOS app.
                 </a>
               </p>
             </CardText>
