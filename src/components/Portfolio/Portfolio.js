@@ -59,8 +59,8 @@ const Portfolio = props => {
               <br />
               <p className='text-left'>
                 My contributions to this product among a team of 9 incredibly
-                talented engineers (6 full-stack web, 3 iOS) -- is in every area
-                of the full-stack web application. I helped architect the
+                talented engineers (6 full-stack web, 3 iOS) -- are in every
+                area of the full-stack web application. I helped architect the
                 front-end and back-end application through 2 product release
                 cycles and multiple product canvases. We also developed in
                 parallel with{' '}
