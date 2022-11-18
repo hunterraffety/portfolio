@@ -16,7 +16,7 @@
     "react-dom": "^16.8.6",
     "react-headroom": "^2.2.8",
     "react-obfuscate": "^3.6.2",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "react-sticky-footer": "0.1.0-rc3",
     "reactstrap": "^8.0.1",
     "styled-components": "^4.3.2"
