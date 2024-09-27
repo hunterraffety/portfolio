@@ -5,7 +5,7 @@ import Obfuscate from 'react-obfuscate';
 function Footer() {
   return (
     <div className='footer-container'>
-      <a href='#' className='contact-anchor' id='contact-anchor' />
+      <a href='#contact-anchor' className='contact-anchor' id='contact-anchor' />
       <Row className='justify-content-center footer-intro'>
         <Col className='text-center footer-intro-text' md='6'>
           <h1 className='text_shadow'>Let's talk, okay?</h1>

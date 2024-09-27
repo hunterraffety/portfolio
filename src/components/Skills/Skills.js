@@ -4,7 +4,7 @@ import { Row, Col } from 'reactstrap';
 function Skills() {
   return (
     <div className='skills-container' id='skills'>
-      <a href='#' className='skills-anchor' id='skills-anchor' />
+      <a href='#skills-anchor' className='skills-anchor' id='skills-anchor' />
       <Row className='d-flex justify-content-center'>
         <Col md='12' sm='12' className='d-flex justify-content-center'>
           <h1 className='skills-header'>Skills & interests.</h1>
