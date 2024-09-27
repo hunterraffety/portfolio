@@ -20,7 +20,7 @@ class About extends React.Component {
   render() {
     return (
       <div className='about-container'>
-        <a href='#' className='about-anchor' id='about-anchor' />
+        <a href='#about-anchor' className='about-anchor' id='about-anchor' />
         <Row className='justify-content-md-center justify-content-xs-center'>
           <Col className='about-intro text-center' md='8'>
             <h1 id='about'>I am always...</h1>

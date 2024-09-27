@@ -5,7 +5,7 @@ import { Card, CardImg, CardText, Row, Col } from 'reactstrap';
 const Portfolio = props => {
   return (
     <div className='portfolio-container align-items-center'>
-      <a href='#' className='portfolio-anchor' id='portfolio-anchor' />
+      <a href='#portfolio-anchor' className='portfolio-anchor' id='portfolio-anchor' />
       <Row className='portfolio-text-content justify-content-md-center '>
         <Col className='top' md='auto'>
           <h1 className='text-center'>I like to create.</h1>
