@@ -8,10 +8,10 @@ export default function HeaderContent() {
       <Row className='cta-middle-row'>
         <Col className='cta-middle text-md-left' auto='true' sm='12'>
           <p>
-            <span className='emphasis-lg'>Hi! I'm Hunter. </span>
+            <span className='emphasis-lg'>Hello. I'm Hunter! </span>
             <p>
               <span className='emphasis-md'>
-                I'm a Full-Stack Engineer from Phoenix.
+                I'm a Full-Stack Software Engineer from the New YorK City area.
               </span>
             </p>
           </p>
