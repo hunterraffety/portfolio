@@ -1,10 +1,13 @@
 // app/about/page.tsx
 import Image from 'next/image'
-import styles from './About.module.scss'
-import profilePic from '../../public/images/profile.png'
-import SkillsSection from '../components/SkillsSection'
+
 import Introduction from '../components/Introduction'
 import PersonalInterests from '../components/PersonalInterests'
+
+import SkillsSection from '../components/SkillsSection'
+import styles from './About.module.scss'
+
+import profilePic from '../../public/images/profile.png'
 
 export default function AboutPage() {
   return (
@@ -14,7 +17,7 @@ export default function AboutPage() {
         <div className={styles.imageContainer}>
           <Image
             src={profilePic}
-            alt='Hunter!'
+            alt='an image of Hunter!'
             className={styles.profileImage}
           />
         </div>
@@ -43,7 +46,6 @@ export default function AboutPage() {
                 with!
               </p>
             </div>
-
             <div className={styles.inspirationalBlock}>
               <h4 className={styles.inspirationalTitle}>Relentless</h4>
               <p>
@@ -61,7 +63,6 @@ export default function AboutPage() {
                 It&apos;s okay to mindfully ask for help from time to time.
               </p>
             </div>
-
             <div className={styles.inspirationalBlock}>
               <h4 className={styles.inspirationalTitle}>
                 A Champion of Others
