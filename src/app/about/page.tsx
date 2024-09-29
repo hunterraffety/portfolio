@@ -38,11 +38,11 @@ export default function AboutPage() {
             <div className={styles.inspirationalBlock}>
               <p>
                 I decided a long time ago that I can&apos;t allow barriers
-                prevent me from being successful. I&apos;m going to make use of every
-                skill and resource that I have along with all of the things I
-                have learned during my life to find success. I&apos;ll also look
-                to others around me when I need help and support. It&apos;s okay
-                to mindfully ask for help from time to time.
+                prevent me from being successful. I&apos;m going to make use of
+                every skill and resource that I have along with all of the
+                things I have learned during my life to find success. I&apos;ll
+                also look to others around me when I need help and support.
+                It&apos;s okay to mindfully ask for help from time to time.
               </p>
               <h4 className={styles.inspirationalTitle}>
                 A Champion of Others
