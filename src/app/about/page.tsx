@@ -55,10 +55,10 @@ export default function AboutPage() {
                 resource that I have along with all of the things I have learned
                 during my life to work through any obstacle that I can encounter
                 in order to achieve the best outcomes. <br />
-                <br />
-                It&apos;s important that I recognize that I can look to others
-                around me when I need help and support. It&apos;s okay to
-                mindfully ask for help from time to time.
+                <br />I also know that sometimes working through challenges and
+                obstacles means that we can look to others around when we need
+                help and support and that asking (the right) questions is okay.
+                It&apos;s okay to mindfully ask for help from time to time.
               </p>
             </div>
 
@@ -71,11 +71,10 @@ export default function AboutPage() {
                 achieve greatness or great things without the help of others. I
                 know that I haven&apos;t. <br />
                 <br />
-                Luckily however I have had (have) people in my life who are
-                invested in me and believe in me. It is fair to reason then that
-                because I have had such fortune in my life that I should
-                continue to turn that outward using the skills and resources
-                that I have. <br />
+                As fortune has it, I have people in my life who are invested in
+                me and believe in me. It is fair to reason then that because I
+                have had such fortune in my life that I should continue to turn
+                that outward using the skills and resources that I have. <br />
                 <br />
                 At one point in my life (for over a decade!) what being able to
                 meaningfully contribute to others and make a difference looked
