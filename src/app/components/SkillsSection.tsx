@@ -14,11 +14,12 @@ const SkillsSection = () => {
           <ul className={styles.skillList}>
             <li>TypeScript & JavaScript</li>
             <li>React & React Native</li>
-            <li>Node.js & Next.js</li>
+            <li>Node.js</li>
+            <li>Next.js/Remix</li>
             <li>GraphQL & Apollo</li>
             <li>Microservice Architectures</li>
             <li>Agile Methodologies & SDLC</li>
-            <li>HTML, CSS Modules & SASS</li>
+            <li>CSS Modules & SASS</li>
             <li>RESTful API Services</li>
             <li>UX/UI Design Principles</li>
             <li>E2E, Functional & Unit Testing</li>
