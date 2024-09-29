@@ -4,7 +4,9 @@
 @import '../styles/_mixins.scss';
 
 .experience {
+  margin: 0 auto;
   margin-bottom: 3rem;
+  max-width: 800px;
 
   .sectionTitle {
     font-size: 2rem;
@@ -37,7 +39,7 @@
       list-style: none;
       padding-left: 0;
 
-      > li {
+      >li {
         margin-bottom: 1rem;
 
         strong {
