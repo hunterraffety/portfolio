@@ -14,24 +14,24 @@ const HomePage = () => {
    *
    * @returns {string} A cheeky British greeting appropriate for the time of day.
    */
-  function getBritishGreeting(): string {
-    const now = new Date()
-    const hour = now.getHours()
+  // function getBritishGreeting(): string {
+  //   const now = new Date()
+  //   const hour = now.getHours()
 
-    if (hour >= 5 && hour < 12) {
-      // Morning
-      return 'Top of the morning to you!'
-    } else if (hour >= 12 && hour < 17) {
-      // Afternoon
-      return "Good afternoon, sunshine! How's tricks?"
-    } else if (hour >= 17 && hour < 21) {
-      // Evening
-      return 'Evening, old chap! Fancy a cuppa?'
-    } else {
-      // Night
-      return "Night, mate! Don't let the bedbugs bite."
-    }
-  }
+  //   if (hour >= 5 && hour < 12) {
+  //     // Morning
+  //     return 'Top of the morning to you!'
+  //   } else if (hour >= 12 && hour < 17) {
+  //     // Afternoon
+  //     return "Good afternoon, sunshine! How's tricks?"
+  //   } else if (hour >= 17 && hour < 21) {
+  //     // Evening
+  //     return 'Evening, old chap! Fancy a cuppa?'
+  //   } else {
+  //     // Night
+  //     return "Night, mate! Don't let the bedbugs bite."
+  //   }
+  // }
 
   // Example usage:
   return (

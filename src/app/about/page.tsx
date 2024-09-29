@@ -38,7 +38,7 @@ export default function AboutPage() {
             <div className={styles.inspirationalBlock}>
               <p>
                 I decided a long time ago that I can&apos;t allow barriers
-                prevent me from being successful. I'm going to make use of every
+                prevent me from being successful. I&apos;m going to make use of every
                 skill and resource that I have along with all of the things I
                 have learned during my life to find success. I&apos;ll also look
                 to others around me when I need help and support. It&apos;s okay
@@ -52,7 +52,7 @@ export default function AboutPage() {
             <div className={styles.inspirationalBlock}>
               <p>
                 Nobody in life achieves anything great without the help of
-                someone else. I know that I haven't. I have people who are
+                someone else. I know that I haven&apos;t. I have people who are
                 invested in me and believe in me. I was a Special Education
                 teacher and co-taught secondary and high school mathematics -- I
                 gave my all every day. I want to give back to others in any way
