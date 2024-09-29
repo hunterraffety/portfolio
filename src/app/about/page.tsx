@@ -20,6 +20,8 @@ export default function AboutPage() {
         <div className={styles.textContent}>
           {/* Introduction Section */}
           <Introduction />
+          {/* Technical Skills Section */}
+          <SkillsSection />
           {/* Inspirational Statements Section */}
           <div className={styles.inspirationalSections}>
             <div className={styles.inspirationalBlock}>
@@ -92,8 +94,6 @@ export default function AboutPage() {
               </p>
             </div>
           </div>
-          {/* Technical Skills Section */}
-          <SkillsSection />
         </div>
       </div>
     </section>
