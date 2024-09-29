@@ -27,7 +27,7 @@ const ProjectsPage = () => {
       description:
         'Educell is a platform for delivering seamless collaboration and communication tools for those who have a vested interest in positive, student centered outcomes. This was a project that was built for a stakeholder that endeavors to connect low-income communities in developing countries with a team of professionals to facilitate the learning of their student.',
       imageUrl: educell,
-      link: 'https://github.com/yourusername/shadow-caster',
+      link: 'https://github.com/',
     },
   ]
 
