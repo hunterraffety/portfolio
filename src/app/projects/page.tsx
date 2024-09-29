@@ -19,7 +19,7 @@ const ProjectsPage = () => {
       description:
         'Use My Tech Stuff is a high-end equipment sharing marketplace. Members can rent a variety of gear from a community of equipment owners across the US. You’ll be able to choose from a diverse selection of cameras, laptops, speakers, monitors, and more in whatever city one could want.',
       imageUrl: useMyTech,
-      link: 'https://github.com/yourusername/shadow-caster',
+      link: 'https://github.com/',
     },
     ,
     {
