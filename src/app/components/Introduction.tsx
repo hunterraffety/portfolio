@@ -24,7 +24,7 @@ const Introduction = () => {
         achieve their fullest potential.
       </p>
       <p>
-        Beyond an ever evolving and growing technical skill set, my passion for mentorship and strategic
+        Beyond an ever evolving and growing technical skill set, my passion for leadership, fostering growth, and strategic
         planning has enabled me to spearhead initiatives such as international
         expansion, accessibility compliance audits, and innovative feature development deliverables
         that not only enhance product offerings but also drive user engagement
