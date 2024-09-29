@@ -1,6 +1,6 @@
 // components/PersonalInterests.tsx
 
-import styles from './PersonalInterests.module.scss';
+import styles from './PersonalInterests.module.scss'
 
 const PersonalInterests = () => {
   return (
@@ -20,7 +20,7 @@ const PersonalInterests = () => {
         <li>Snowboarding / skateboarding</li>
       </ul>
     </div>
-  );
-};
+  )
+}
 
-export default PersonalInterests;
+export default PersonalInterests

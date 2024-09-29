@@ -26,8 +26,12 @@ export default function BlogPage() {
       </div>
       <h2 className={styles.title}>Blog Coming Soon</h2>
       <p className={styles.subtitle}>
-        I&apos;re crafting something special for you! Keep an eye out for
-        updates.
+        I&apos;re crafting something special for you! <br />
+        <br />
+        (Legit! This is my travel and woodworking blog, not for professional
+        purposes)
+        <br />
+        <br /> Keep an eye out for updates dear friends!
       </p>
     </section>
   )
