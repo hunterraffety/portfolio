@@ -32,7 +32,7 @@ const Introduction = () => {
         achieve our collective goals.
       </p>
       <p>
-        Beyond an ever evolving and growing technical skill set, my passion for
+        Beyond an ever evolving and growing technical skillset, my passion for
         leadership, fostering growth, and strategic planning has enabled me to
         spearhead initiatives such as international expansion, accessibility
         compliance audits, and innovative feature development deliverables that
