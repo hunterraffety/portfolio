@@ -21,7 +21,7 @@ const Introduction = () => {
         skills, I have been able to successfully lead cross-functional teams to
         achieve high quality deliverables on time and with a focus on avoiding
         and minimizing negative user and company outcomes or critical incidents
-        resulting in lack of service, outages, etc.
+        resulting in outages or down time.
         <br />
         <br />
         My leadership approach, rooted in Radical Candor, prioritizes
