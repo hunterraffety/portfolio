@@ -6,7 +6,6 @@ const SkillsSection = () => {
   return (
     <div className={styles.skills}>
       <h3 className={styles.sectionTitle}>Skills</h3>
-
       <div className={styles.skillCategories}>
         {/* Technical Skills */}
         <div className={styles.skillCategory}>

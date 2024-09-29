@@ -15,8 +15,8 @@ const Introduction = () => {
         objectives.
       </p>
       <p>
-        With a robust foundation in TypeScript, JavaScript, React, Node.js, and
-        AWS Architecture, I have successfully led cross-functional teams to
+        With a solid and continually growing foundation in TypeScript, JavaScript, React, Node.js, and
+        AWS services, I have successfully led cross-functional teams to
         deliver scalable microservice architectures and optimized user
         enrollment processes that resulted in significant growth metrics. My
         leadership style, grounded in Radical Candor, emphasizes open
@@ -24,9 +24,9 @@ const Introduction = () => {
         achieve their fullest potential.
       </p>
       <p>
-        Beyond technical prowess, my passion for mentorship and strategic
+        Beyond an ever evolving and growing technical skill set, my passion for mentorship and strategic
         planning has enabled me to spearhead initiatives such as international
-        expansion, accessibility compliance, and innovative feature development
+        expansion, accessibility compliance audits, and innovative feature development deliverables
         that not only enhance product offerings but also drive user engagement
         and satisfaction. I am committed to leveraging my skills and experiences
         to contribute meaningfully to forward-thinking organizations,
