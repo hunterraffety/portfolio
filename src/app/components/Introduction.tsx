@@ -15,7 +15,7 @@ const Introduction = () => {
         objectives.
       </p>
       <p>
-        With a solid and continually growing foundation in TypeScript, JavaScript, React, Node.js, and
+        With strong foundations and a continually growing skill set with TypeScript, JavaScript, React, node.js, and
         AWS services, I have successfully led cross-functional teams to
         deliver intuivive user oriented features with high activation and usage metrics and optimized user
         enrollment processes that resulted in significant growth metrics. My
