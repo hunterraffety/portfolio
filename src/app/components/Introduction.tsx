@@ -15,15 +15,21 @@ const Introduction = () => {
         align with business objectives.
       </p>
       <p>
-        With strong foundations in fundamnetals and a continually growing modern
-        skill set with TypeScript, JavaScript, React, node.js, and AWS services,
-        and people management skills, I have successfully led cross-functional
-        teams to deliver intuivive user oriented features with high activation
-        and usage metrics and while also optimizing user enrollment processes
-        and versions for user testing that resulted in significant growth
-        metrics. My leadership style, grounded in Radical Candor, emphasizes
-        open communication, continuous learning, and empowering team members to
-        achieve their fullest potential.
+        With strong foundations in programming and a strong drive to work with
+        people, supported by a continually growing modern skillset with
+        TypeScript and JavaScript, React, node.js, AWS, and people management
+        skills, I have been able to successfully lead cross-functional teams to
+        achieve high quality deliverables on time and with a focus on avoiding
+        and minimizing negative user and company outcomes or critical incidents
+        resulting in lack of service, outages, etc.
+        <br />
+        <br />
+        My leadership approach, rooted in Radical Candor, prioritizes
+        transparent communication, fosters continuous learning, and empowers
+        team members to reach their full potential. By cultivating an
+        environment of trust and open dialogue, I ensure that each team member
+        feels valued and supported, enabling us to collaborate effectively and
+        achieve our collective goals.
       </p>
       <p>
         Beyond an ever evolving and growing technical skill set, my passion for
