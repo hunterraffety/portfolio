@@ -1,0 +1,43 @@
+// components/PersonalInterests.module.scss
+
+@import '../styles/_variables.scss';
+@import '../styles/_mixins.scss';
+
+.section {
+  margin-bottom: 3rem;
+
+  h3 {
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+    color: $gold-accent;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 2px rgba($black, 0.5);
+    text-align: center;
+
+    @media (min-width: 768px) {
+      text-align: left;
+    }
+  }
+
+  .list {
+    list-style: none;
+    padding-left: 0;
+
+    li {
+      position: relative;
+      padding-left: 1.5rem;
+      font-size: 1rem;
+      font-family: inherit;
+      color: $light-gray-text;
+      margin-bottom: 0.5rem;
+
+      &::before {
+        content: '➤';
+        /* Arrow icon */
+        position: absolute;
+        left: 0;
+        color: $crimson-red;
+      }
+    }
+  }
+}

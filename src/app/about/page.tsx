@@ -4,6 +4,7 @@ import styles from './About.module.scss'
 import profilePic from '../../public/images/profile.png'
 import SkillsSection from '../components/SkillsSection'
 import Introduction from '../components/Introduction'
+import PersonalInterests from '../components/PersonalInterests'
 
 export default function AboutPage() {
   return (
@@ -94,6 +95,8 @@ export default function AboutPage() {
               </p>
             </div>
           </div>
+          {/* Personal Interests Section */}
+          <PersonalInterests />
         </div>
       </div>
     </section>

@@ -1,0 +1,71 @@
+// components/ExperienceSection.module.scss
+
+@import '../styles/_variables.scss';
+@import '../styles/_mixins.scss';
+
+.experience {
+  margin-bottom: 3rem;
+
+  .sectionTitle {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    color: $gold-accent;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    @include text-shadow;
+  }
+
+  .job {
+    margin-bottom: 2rem;
+
+    .jobTitle {
+      font-size: 1.5rem;
+      font-family: 'Playfair Display', serif;
+      color: $crimson-red;
+      margin-bottom: 0.5rem;
+      @include text-shadow;
+    }
+
+    .jobDetails {
+      font-size: 1rem;
+      font-family: $font-body;
+      color: $light-gray-text;
+      margin-bottom: 1rem;
+    }
+
+    .jobResponsibilities {
+      list-style: none;
+      padding-left: 0;
+
+      >li {
+        margin-bottom: 1rem;
+
+        strong {
+          font-family: 'Playfair Display', serif;
+          color: $gold-accent;
+        }
+
+        ul {
+          list-style: none;
+          padding-left: 1rem;
+
+          li {
+            position: relative;
+            padding-left: 1.5rem;
+            font-size: 1rem;
+            font-family: inherit;
+            color: $light-gray-text;
+            margin-bottom: 0.5rem;
+
+            &::before {
+              content: '➤'; // Arrow icon
+              position: absolute;
+              left: 0;
+              color: $crimson-red;
+            }
+          }
+        }
+      }
+    }
+  }
+}
