@@ -1,5 +1,6 @@
 // components/ProjectCard.tsx
 import styles from './ProjectCard.module.scss'
+import Image from 'next/image'
 
 interface Project {
   title: string
@@ -15,7 +16,13 @@ interface ProjectCardProps {
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   return (
     <div className={styles.card}>
-      <img src={project.imageUrl} alt={project.title} />
+      <Image
+        src={project.imageUrl}
+        alt={project.title}
+        layout='responsive'
+        width={500}
+        height={300}
+      />
       <div className={styles.content}>
         <h3>{project.title}</h3>
         <p>{project.description}</p>
