@@ -1,0 +1,21 @@
+// components/Introduction.module.scss
+
+@import '../styles/_variables.scss';
+@import '../styles/_mixins.scss';
+
+.introduction {
+  margin-bottom: 3rem;
+
+  p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    font-family: $font-body;
+    color: $light-gray-text;
+    margin-bottom: 1.5rem;
+
+    &:first-of-type {
+      font-weight: bold;
+      color: $gold-accent;
+    }
+  }
+}

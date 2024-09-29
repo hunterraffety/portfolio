@@ -1,0 +1,41 @@
+// styles/_mixins.scss
+
+@import './variables.scss';
+
+@mixin button-style {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: $dark-gold;
+  color: $light-gray-text;
+  border: 2px solid $dark-gold;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+
+  &:hover {
+    background-color: transparent;
+    color: $dark-gold;
+  }
+}
+
+@mixin ornate-border {
+  border: 2px solid $dark-gold;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: rgba($dark-gold, 0.1); // Dark gold tint
+}
+
+@mixin text-shadow {
+  text-shadow: 2px 2px 4px rgba($black, 0.6);
+}
+
+@mixin responsive-text($min-size, $max-size) {
+  font-size: $min-size;
+
+  @media (min-width: 768px) {
+    font-size: $max-size;
+  }
+}

@@ -1,0 +1,37 @@
+// app/projects/Projects.module.scss
+
+@import '../styles/_variables.scss';
+@import '../styles/_mixins.scss';
+
+.projects {
+  padding: 4rem 2rem;
+
+  h2 {
+    @include responsive-text(2rem, 2.5rem);
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: $font-headings;
+    color: $gold-accent;
+    @include text-shadow;
+  }
+
+  .project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+
+  // Adjust project card width for larger screens
+  @media (min-width: 768px) {
+    .project-card {
+      flex: 0 0 calc(50% - 1rem); // Two columns with space between
+      max-width: calc(50% - 1rem);
+    }
+  }
+}

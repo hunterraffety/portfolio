@@ -1,0 +1,16 @@
+// components/Footer.module.scss
+
+@import '../styles/variables.scss';
+
+.footer {
+  background-color: $color-dark-gray;
+  color: $color-light-gray;
+  padding: 2rem;
+  text-align: center;
+  border-top: 2px solid $color-dark-gold;
+
+  p {
+    margin: 0;
+    font-family: $font-family-body;
+  }
+}

@@ -1,0 +1,43 @@
+// components/Navbar.module.scss
+
+@import '../styles/variables.scss';
+
+.navbar {
+  background-color: $color-dark-gray;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  top: 0;
+  border-bottom: 2px solid $color-dark-gold;
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      font-size: 2rem;
+      font-family: $font-family-headings;
+      color: $color-gold-accent;
+    }
+
+    .links {
+      display: flex;
+      align-items: center;
+
+      a {
+        margin-left: 1.5rem;
+        color: $color-light-gray;
+        font-size: 1rem;
+        font-family: $font-family-body;
+
+        &:hover {
+          color: $color-gold-accent;
+        }
+      }
+    }
+  }
+}

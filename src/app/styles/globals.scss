@@ -1,0 +1,35 @@
+// styles/globals.scss
+
+@import './variables.scss';
+@import './mixins.scss';
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Lora:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: $font-family-body;
+  background-color: $color-black;
+  color: $color-light-gray;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-headings;
+  color: $color-gold-accent;
+}
+
+a {
+  color: $color-gold-accent;
+  text-decoration: none;
+
+  &:hover {
+    color: lighten($color-gold-accent, 10%);
+  }
+}
+
+main {
+  padding-top: 80px; // To account for the fixed navbar height
+}

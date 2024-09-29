@@ -1,0 +1,66 @@
+// components/SkillsSection.module.scss
+
+@import '../styles/_variables.scss';
+@import '../styles/_mixins.scss';
+
+.skills {
+  margin-bottom: 3rem;
+
+  .sectionTitle {
+    font-size: 2rem;
+    font-family: $font-headings;
+    color: $gold-accent;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    @include text-shadow;
+  }
+
+  .skillCategories {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .skillCategory {
+      flex: 1;
+
+      .categoryTitle {
+        font-size: 1.5rem;
+        font-family: $font-headings;
+        color: $crimson-red;
+        margin-bottom: 1rem;
+        @include text-shadow;
+        text-align: center;
+
+        @media (min-width: 768px) {
+          text-align: left;
+        }
+      }
+
+      .skillList {
+        list-style: none;
+        padding: 0;
+
+        li {
+          font-size: 1rem;
+          font-family: $font-body;
+          color: $light-gray-text;
+          margin-bottom: 0.5rem;
+          position: relative;
+          padding-left: 1.5rem;
+
+          &::before {
+            content: '✔️'; // Checkmark icon for better visual appeal
+            position: absolute;
+            left: 0;
+            color: $crimson-red;
+          }
+        }
+      }
+    }
+  }
+}

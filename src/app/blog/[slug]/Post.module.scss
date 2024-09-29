@@ -1,0 +1,101 @@
+// app/blog/[slug]/Post.module.scss
+
+@import '../../styles/_variables.scss';
+@import '../../styles/_mixins.scss';
+
+.post {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem 4rem;
+
+  .heroImage {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(70%);
+    }
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 3rem;
+
+    h1 {
+      @include responsive-text(2.5rem, 3rem);
+      font-family: $font-headings;
+      color: $gold-accent;
+      @include text-shadow;
+      margin-bottom: 0.5rem;
+    }
+
+    .date {
+      font-size: 1rem;
+      color: $light-gray-text;
+      font-family: $font-body;
+      font-style: italic;
+    }
+  }
+
+  .content {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    font-family: 'Courier New', Courier, monospace; // Typewriter-like font
+    color: $light-gray-text;
+    animation: typing 4s steps(100, end);
+
+    p {
+      margin-bottom: 1.5rem;
+    }
+
+    h2,
+    h3,
+    h4 {
+      font-family: $font-headings;
+      color: $gold-accent;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      @include text-shadow;
+    }
+
+    a {
+      color: $gold-accent;
+      text-decoration: underline;
+
+      &:hover {
+        color: lighten($gold-accent, 10%);
+      }
+    }
+
+    ul,
+    ol {
+      margin-left: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    blockquote {
+      margin: 2rem 0;
+      padding: 1rem 1.5rem;
+      background-color: rgba($dark-gold, 0.1);
+      border-left: 4px solid $dark-gold;
+      font-style: italic;
+    }
+  }
+}
+
+/* Typewriter effect animation */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}

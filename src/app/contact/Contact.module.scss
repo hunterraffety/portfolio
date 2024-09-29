@@ -1,0 +1,52 @@
+/* app/contact/Contact.module.scss */
+@import '../styles/variables';
+@import '../styles/mixins';
+
+.contact {
+  padding: 4rem 2rem;
+
+  h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Old Standard TT', serif;
+    color: var(--accent-color);
+  }
+
+  .form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    @include ornate-border;
+
+    label {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      font-family: 'Lora', serif;
+      color: var(--text-color);
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 0.75rem;
+        margin-top: 0.5rem;
+        border: 1px solid var(--text-color);
+        border-radius: 4px;
+        background-color: var(--dark-gray);
+        color: var(--text-color);
+
+        &:focus {
+          border-color: var(--accent-color);
+          outline: none;
+        }
+      }
+    }
+
+    button {
+      @include button-style;
+      margin-top: 1rem;
+      align-self: center;
+    }
+  }
+}
