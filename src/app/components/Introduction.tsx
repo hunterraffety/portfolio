@@ -16,7 +16,7 @@ const Introduction = () => {
       </p>
       <p>
         With strong foundations and a continually growing skill set with TypeScript, JavaScript, React, node.js, and
-        AWS services, I have successfully led cross-functional teams to
+        AWS services, and people management skills, I have successfully led cross-functional teams to
         deliver intuivive user oriented features with high activation and usage metrics and while also optimizing user
         enrollment processes and versions for user testing that resulted in significant growth metrics. My
         leadership style, grounded in Radical Candor, emphasizes open
