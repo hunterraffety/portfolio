@@ -17,7 +17,7 @@ const Introduction = () => {
       <p>
         With a solid and continually growing foundation in TypeScript, JavaScript, React, Node.js, and
         AWS services, I have successfully led cross-functional teams to
-        deliver scalable microservice architectures and optimized user
+        deliver intuivive user oriented features with high activation and usage metrics and optimized user
         enrollment processes that resulted in significant growth metrics. My
         leadership style, grounded in Radical Candor, emphasizes open
         communication, continuous learning, and empowering team members to
