@@ -106,7 +106,10 @@ const ExperienceSection = () => {
                 Refactored monolithic Java codebase to Node.js microservices.
               </li>
               <li>Enhanced integration with third-party credit bureaus.</li>
-              <li>Contributed to project "Fusion," improving scalability.</li>
+              <li>
+                Contributed to project &quot;Fusion,&quot; improving
+                scalability.
+              </li>
             </ul>
           </li>
 
@@ -130,7 +133,7 @@ const ExperienceSection = () => {
               <li>
                 Integrated ML-generated risk scores for intelligent alerts.
               </li>
-              <li>Feature highlighted on CBS's "60 Minutes."</li>
+              <li>Feature highlighted on CBS&apos;s &quot;60 Minutes.&quot;</li>
             </ul>
           </li>
         </ul>
