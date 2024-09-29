@@ -34,12 +34,13 @@ export default function AboutPage() {
                 <br />
                 <br />
                 I&apos;ve been able to do and see and build some neat things in
-                life professionally and personally, but I know I can do more.{' '}
+                life professionally and personally, and I know I can do more.{' '}
                 <br />
                 <br />
-                It makes sense to me then that if I can do awesome things in
-                life, I&apos;m just going to go ahead and do those things and
-                surround myself with the best people possible to do it with!
+                Knowing that it makes total sense to me that if I can do awesome
+                things in life then I&apos;m should just keep doing those things
+                and surround myself with the best people possible to do them
+                with!
               </p>
             </div>
 
@@ -48,12 +49,12 @@ export default function AboutPage() {
               <p>
                 I decided a long time ago that as much as possible, I can&apos;t
                 allow barriers prevent me from being successful, but philosophy
-                says that sometimes the obstacle is the way.
+                teaches us that sometimes, the obstacle is the way.
                 <br />
-                <br /> I&apos;m going to make use of every skill and resource
-                that I have along with all of the things I have learned during
-                my life to break down any obstacle in my way to achieve an
-                outcome. <br />
+                <br /> As such I will continue to make use of every skill and
+                resource that I have along with all of the things I have learned
+                during my life to work through any obstacle that I can encounter
+                in order to achieve the best outcomes. <br />
                 <br />
                 It&apos;s important that I recognize that I can look to others
                 around me when I need help and support. It&apos;s okay to
@@ -76,10 +77,14 @@ export default function AboutPage() {
                 continue to turn that outward using the skills and resources
                 that I have. <br />
                 <br />
-                At one point in my life it looked like being a special education
-                classroom teacher (for over a decade!) and now it looks like
-                building software and tools for people to get things done and to
-                be part of great things themselves. <br />
+                At one point in my life (for over a decade!) what being able to
+                meaningfully contribute to others and make a difference looked
+                like being a special education classroom teacher. Now it looks
+                like building software and tools for people to get things done
+                and to be part of great things themselves. The focus remains the
+                same however in each: making things better for others. (Or at
+                the very least trying my very best to do so.)
+                <br />
                 <br />
                 It is very much possible to do real, impactful work through
                 reaching users via keyboard and code and building awesome user

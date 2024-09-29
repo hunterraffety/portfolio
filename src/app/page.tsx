@@ -40,7 +40,7 @@ const HomePage = () => {
         <h1 className={styles.gothicTitle}>Oh! Hello there, I&apos;m Hunter</h1>
         <p>
           I&apos;m a software engineer in the New York City area and I fancy
-          transforming ideas into organized colored pixels and solving complex
+          transforming ideas into delightful little pixels and solving complex
           problems with <span>others</span> through <span>creativity</span> and{' '}
           <span>code</span>
         </p>

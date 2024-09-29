@@ -7,12 +7,12 @@ const Introduction = () => {
     <div className={styles.introduction}>
       <p>
         As a dedicated engineering leader with a relentless drive for
-        excellence, I have consistently strived to elevate both my personal
-        growth and the performance of my teams. My journey from a passionate
-        Full Stack Engineer to an accomplished Engineering Manager has been
-        marked by a commitment to fostering innovation, enhancing user
-        experiences through deliverables, and driving strategic initiatives that
-        align with business objectives.
+        excellence, I consistently strive to elevate both my personal growth and
+        the performance of my teams. My journey from a passionate Full Stack
+        Engineer to an accomplished Engineering Manager has been marked by a
+        commitment to fostering innovation, enhancing user experiences through
+        deliverables, and driving strategic initiatives that align with business
+        objectives.
       </p>
       <p>
         With strong foundations in programming and a strong drive to work with
