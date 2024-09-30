@@ -64,12 +64,13 @@ export default function AboutPage() {
                 <br />
                 <br /> As such I will continue to make use of every skill and
                 resource that I have along with all of the things I have learned
-                during my life to work through any obstacle that I can encounter
-                in order to achieve the best outcomes. <br />
+                during my life to work through any obstacle that I encounter in
+                order to achieve the best outcomes possible. <br />
                 <br />I also know that sometimes working through challenges and
-                obstacles means that we can look to others around when we need
-                help and support and that asking (the right) questions is okay.
-                It&apos;s okay to mindfully ask for help from time to time.
+                obstacles means that we look to others around us when we seek
+                guidance and support and that asking thoughtful questions is
+                okay. It&apos;s okay to mindfully ask for help from time to
+                time.
               </p>
             </div>
             <div className={styles.inspirationalBlock}>
