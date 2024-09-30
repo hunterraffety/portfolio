@@ -1,7 +1,7 @@
 // pages/pets.tsx
 
-import Head from 'next/head';
-import Gallery from '../components/Gallery';
+import Head from 'next/head'
+import Gallery from '../components/Gallery'
 
 const Pets = () => {
   // List of pet image filenames
@@ -12,19 +12,22 @@ const Pets = () => {
     'pets4.jpg',
     'pets5.jpg',
     // Add more image filenames as needed
-  ];
+  ]
 
   return (
     <>
       <Head>
         <title>Pets Gallery | [Your Name]</title>
-        <meta name="description" content="A classy gallery showcasing my beloved pets." />
+        <meta
+          name='description'
+          content='A classy gallery showcasing my beloved pets.'
+        />
       </Head>
       <main>
-        <Gallery images={petImages} title="Pets" />
+        <Gallery images={petImages} title='Pets' />
       </main>
     </>
-  );
-};
+  )
+}
 
-export default Pets;
+export default Pets

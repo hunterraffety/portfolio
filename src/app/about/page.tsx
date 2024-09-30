@@ -31,27 +31,28 @@ export default function AboutPage() {
             <div className={styles.inspirationalBlock}>
               <h4 className={styles.inspirationalTitle}>Philosophy</h4>
               <p>
-                My hope each morning is that I wake up hopefully a little
-                bit better a person than the day prior. It&apos;s a good pursuit and it&apos;s good to have a
-                continued (and somewhat tenacious!) drive to become better each
-                day.
+                Ideally each morning I wake up a little bit better a person than
+                the day prior. It&apos;s a good pursuit and it&apos;s good to
+                have a continued (and somewhat tenacious!) drive to become
+                better each day and I am grateful to strive for that.
                 <br />
                 <br />
-                In my life I&apos;ve been fortunate enough to do a few
-                interesting things, see some interesting places around the
-                world, and collaborate and build really awesome things with
-                others. It remains exciting as ever to know that I can do more
-                and that the only limit to doing more is my ability to continue
-                growing and learning new things and working with others. In
-                other words, there aren&apos;t a whole lot of limits! <br />
+                In my life I&apos;ve been fortunate enough to do some neat
+                things, see some cool places, and do interesting things for
+                work. Sometimes I feel like you don&apos;t as often hear about
+                all the talented and creative people we get to work, but
+                I&apos;ve worked with some really great folks. It remains
+                exciting as ever to know that I can do more and that the only
+                limit to doing more is my ability to continue growing and
+                learning new things and working with others to do great things.
+                In other words, there aren&apos;t a whole lot of limits! <br />
                 <br />
                 Having said that, it makes a whole lot of sense to me that if I
-                keep doing these things and building great projects, that I will
-                continue to learn and grow and that I will continue to be
-                surrounded by people who want to do the same. If I can do these
-                things in life then I&apos;m should just keep doing those things
-                and surround myself with the best people possible to do them
-                with, because that&apos;s a pretty amazing way to live life.{' '}
+                keep doing these things and building great projects that makes
+                people&apos;s lives better, that I should and will continue to
+                learn and grow and that I should and will strive to continue to
+                be surrounded by people who want to do the same. That&apos;s a
+                pretty amazing way to live life.{' '}
               </p>
             </div>
             <div className={styles.inspirationalBlock}>

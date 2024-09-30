@@ -33,8 +33,12 @@ export default function BlogPage() {
         <br />
         (Legit! This is my travel and woodworking blog, not for professional
         purposes)
-        <Link href="/europe"><p>Europe 2024</p></Link>
-        <Link href="/pets"><p>Watson & Sherlock</p></Link>
+        <Link href='/europe'>
+          <p>Europe 2024</p>
+        </Link>
+        <Link href='/pets'>
+          <p>Watson & Sherlock</p>
+        </Link>
         <br />
         <br /> Keep an eye out for updates dear friends!
       </p>

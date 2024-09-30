@@ -36,7 +36,9 @@
 .imageWrapper {
   cursor: pointer;
   border-radius: 8px;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
   object-fit: fill;
 
   &:hover {
@@ -54,5 +56,4 @@
   border-radius: 8px;
   object-fit: cover;
   transition: transform 0.3s;
-
 }
