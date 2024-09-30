@@ -50,4 +50,4 @@
 //   },
 //   // Add more sample posts as needed
 // ];
-// import profilePic from '../../public/images/profile.png';
+// // import profilePic from '../public/images/profile.png';
