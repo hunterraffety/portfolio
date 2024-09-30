@@ -78,22 +78,28 @@ export default function AboutPage() {
                 A Champion of Others
               </h4>
               <p>
-                I pretty firmly believe that very few in this world are able to
-                achieve greatness or great things without the help of others. I
+                I pretty firmly believe seldom few in this world are able to
+                achieve greatness on their own or achieve great things without
+                the help of others. It happens, to be sure. In my case however I
                 know that I haven&apos;t. <br />
                 <br />
-                As fortune has it, I have people in my life who are invested in
+                As fortune has it I have people in my life who are invested in
                 me and believe in me. It is fair to reason then that because I
                 have had such fortune in my life that I should continue to turn
-                that outward using the skills and resources that I have. <br />
+                that outward using the skills and resources that I have in order
+                to make things better for the world at large, but my community,
+                family, friends and those I work with and for. <br />
                 <br />
                 At one point in my life (for over a decade!) what being able to
                 meaningfully contribute to others and make a difference looked
-                like being a special education classroom teacher. Now it looks
-                like building software and tools for people to get things done
-                and to be part of great things themselves. The focus remains the
-                same however in each: making things better for others. (Or at
-                the very least trying my very best to do so.)
+                like -- was being a special education classroom teacher. Now it
+                looks like building software and tools for people to get things
+                done and to be part of great things themselves.
+                <br />
+                <br />
+                The focus remains the same however in each: making the world we
+                live in better for others. (Or at the very least trying my very
+                best to do so.)
                 <br />
                 <br />
                 It is very much possible to do real, impactful work through
