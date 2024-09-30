@@ -1,4 +1,4 @@
-// // app/blog/[slug]/page.tsx
+// app/blog/[slug]/page.tsx
 
 // import { notFound } from 'next/navigation'
 // import styles from './Post.module.scss'
