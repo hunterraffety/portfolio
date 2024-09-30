@@ -1,0 +1,58 @@
+// styles/Gallery.module.scss
+
+@import './_variables.scss';
+@import './_mixins.scss';
+
+.galleryContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  color: $light-gray-text;
+}
+
+.galleryTitle {
+  font-size: 2rem;
+  font-family: 'Playfair Display', serif;
+  color: $gold-accent;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  @include text-shadow;
+}
+
+.imageGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+
+  @media (min-width: 600px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 900px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.imageWrapper {
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  object-fit: fill;
+
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 20px rgba($black, 0.5);
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px lighten($gold-accent, 20%);
+  }
+}
+
+.image {
+  border-radius: 8px;
+  object-fit: cover;
+  transition: transform 0.3s;
+
+}

@@ -3,6 +3,7 @@
 // import { samplePosts } from '../data/samplePosts'
 import styles from './Blog.module.scss'
 import MagnifyingGlass from '../components/icons/MagnifyingGlass'
+import Link from 'next/link'
 
 export default function BlogPage() {
   // const posts = samplePosts
@@ -32,6 +33,8 @@ export default function BlogPage() {
         <br />
         (Legit! This is my travel and woodworking blog, not for professional
         purposes)
+        <Link href="/europe"><p>Europe 2024</p></Link>
+        <Link href="/pets"><p>Watson & Sherlock</p></Link>
         <br />
         <br /> Keep an eye out for updates dear friends!
       </p>

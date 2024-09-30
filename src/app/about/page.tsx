@@ -7,8 +7,6 @@ import PersonalInterests from '../components/PersonalInterests'
 import SkillsSection from '../components/SkillsSection'
 import styles from './About.module.scss'
 
-import profilePic from '../../public/images/profile.png'
-
 export default function AboutPage() {
   return (
     <section className={styles.about}>
@@ -16,8 +14,10 @@ export default function AboutPage() {
       <div className={styles.content}>
         <div className={styles.imageContainer}>
           <Image
-            src={profilePic}
+            src={'/images/profile.png'}
             alt='an image of Hunter!'
+            width={300}
+            height={1000}
             className={styles.profileImage}
           />
         </div>

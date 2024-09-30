@@ -1,9 +1,9 @@
 // app/projects/page.tsx
 import ProjectCard from '../components/ProjectCard'
 import styles from './Projects.module.scss'
-import endrsd from '../../public/images/endrsd.png'
-import educell from '../../public/images/educell_mu.png'
-import useMyTech from '../../public/images/umts_mu.png'
+import endrsd from '../../../public/images/endrsd.png'
+import educell from '../../../public/images/educell_mu.png'
+import useMyTech from '../../../public/images/umts_mu.png'
 const description = `endrsd.com is a Lambda School Labs (8 week capstone experience) product that serves as my capstone project for my time at Lambda. Lambda School is/was our stakeholder. View our product showcase. endrsd seeks to bridge the gap between technical curriculum and career focused curriculum by solving the problem of allowing students to track and monitor their progress through the career endorsement process independently. It also provides a career coach dashboard to monitor, track, and reach out to students. My contributions to this product among a team of 9 incredibly talented engineers (6 full-stack web, 3 iOS) -- are in every area of the full-stack web application. I helped architect the front-end and back-end application through 2 product release cycles and multiple product canvases. We also developed in parallel with a fully native iOS app.`
 
 const ProjectsPage = () => {
