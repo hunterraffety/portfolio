@@ -59,8 +59,8 @@ export default function AboutPage() {
               <h4 className={styles.inspirationalTitle}>Relentless</h4>
               <p>
                 I decided a long time ago that as much as possible, I can&apos;t
-                allow barriers prevent me from being successful, but philosophy
-                teaches us that sometimes, the obstacle is the way.
+                allow barriers to prevent me from being successful, but
+                philosophy teaches us that sometimes, the obstacle is the way.
                 <br />
                 <br /> As such I will continue to make use of every skill and
                 resource that I have along with all of the things I have learned
