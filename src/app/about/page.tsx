@@ -86,10 +86,11 @@ export default function AboutPage() {
                 <br />
                 As fortune has it I have people in my life who are invested in
                 me and believe in me. It is fair to reason then that because I
-                have had such fortune in my life that I should continue to turn
-                that outward using the skills and resources that I have in order
-                to make things better for the world at large, but my community,
-                family, friends and those I work with and for. <br />
+                have such fortune in my life that I should continue to turn that
+                outward. By utilizing using the skills and resources that I have
+                I can make things better for the world at large, but also my
+                community, family, friends and those I work with and for.{' '}
+                <em>That&apos;s good stuff.</em> <br />
                 <br />
                 At one point in my life (for over a decade!) what being able to
                 meaningfully contribute to others and make a difference looked
