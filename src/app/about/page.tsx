@@ -31,19 +31,28 @@ export default function AboutPage() {
             <div className={styles.inspirationalBlock}>
               <h4 className={styles.inspirationalTitle}>Philosophy</h4>
               <p>
-                I woke up today hopefully a little bit better of a person than
-                yesterday. Having said that however, it doesn&apos;t mean that I
-                don&apos;t have a relentless drive to become better today.
+                My hope each morning is that I woke up that hopefully a little
+                bit better of a person than I was the day prior when I went to
+                bed. It&apos;s a good pursuit and it&apos;s good to have a
+                continued (and somewhat tenacious!) drive to become better each
+                day.
                 <br />
                 <br />
-                I&apos;ve been able to do and see and build some neat things in
-                life professionally and personally, and I know I can do more.{' '}
+                In my life I&apos;ve been fortunate enough to do a few
+                interesting things, see some interesting places around the
+                world, and collaborate and build really awesome things with
+                others. It remains exciting as ever to know that I can do more
+                and that the only limit to doing more is my ability to continue
+                growing and learning new things and working with others. In
+                other words, there aren&apos;t a whole lot of limits! <br />
                 <br />
-                <br />
-                Knowing that it makes total sense to me that if I can do awesome
+                Having said that, it makes a whole lot of sense to me that if I
+                keep doing these things and building great projects, that I will
+                continue to learn and grow and that I will continue to be
+                surrounded by people who want to do the same. If I can do these
                 things in life then I&apos;m should just keep doing those things
                 and surround myself with the best people possible to do them
-                with!
+                with, because that&apos;s a pretty amazing way to live life.{' '}
               </p>
             </div>
             <div className={styles.inspirationalBlock}>
