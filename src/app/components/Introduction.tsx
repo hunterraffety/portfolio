@@ -15,13 +15,12 @@ const Introduction = () => {
         objectives.
       </p>
       <p>
-        With strong foundations in programming and a strong drive to work with
-        people, supported by a continually growing modern skillset with
+        With strong foundations in programming and an innate desire to work with
+        people, supported by a continually growing modern skillset that includes
         TypeScript and JavaScript, React, node.js, AWS, and people management
         skills, I have been able to successfully lead cross-functional teams to
-        achieve high quality deliverables on time and with a focus on avoiding
-        and minimizing negative user and company outcomes or critical incidents
-        resulting in outages or down time.
+        achieve high quality deliverables that drive business growth and
+        innovation.
         <br />
         <br />
         My leadership approach, rooted in Radical Candor, prioritizes
