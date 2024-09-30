@@ -40,12 +40,13 @@ export default function AboutPage() {
                 In my life I&apos;ve been fortunate enough to do some neat
                 things, see some cool places, and do interesting things for
                 work. Sometimes I feel like you don&apos;t as often hear about
-                all the talented and creative people we get to work, but
-                I&apos;ve worked with some really great folks. It remains
-                exciting as ever to know that I can do more and that the only
-                limit to doing more is my ability to continue growing and
-                learning new things and working with others to do great things.
-                In other words, there aren&apos;t a whole lot of limits! <br />
+                all the talented and creative people we get to work with
+                throughout our lives, but I&apos;ve worked with some really
+                great folks. It remains exciting as ever to know that I can do
+                more and that the only limit to doing more is my ability to
+                continue growing and learning new things and working with others
+                to do great things. In other words, there aren&apos;t a whole
+                lot of limits! <br />
                 <br />
                 Having said that, it makes a whole lot of sense to me that if I
                 keep doing these things and building things that make
