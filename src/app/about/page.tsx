@@ -31,9 +31,8 @@ export default function AboutPage() {
             <div className={styles.inspirationalBlock}>
               <h4 className={styles.inspirationalTitle}>Philosophy</h4>
               <p>
-                My hope each morning is that I woke up that hopefully a little
-                bit better of a person than I was the day prior when I went to
-                bed. It&apos;s a good pursuit and it&apos;s good to have a
+                My hope each morning is that I wake up hopefully a little
+                bit better a person than the day prior. It&apos;s a good pursuit and it&apos;s good to have a
                 continued (and somewhat tenacious!) drive to become better each
                 day.
                 <br />
