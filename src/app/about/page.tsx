@@ -48,11 +48,11 @@ export default function AboutPage() {
                 In other words, there aren&apos;t a whole lot of limits! <br />
                 <br />
                 Having said that, it makes a whole lot of sense to me that if I
-                keep doing these things and building great projects that makes
-                people&apos;s lives better, that I should and will continue to
-                learn and grow and that I should and will strive to continue to
-                be surrounded by people who want to do the same. That&apos;s a
-                pretty amazing way to live life.{' '}
+                keep doing these things and building things that make
+                people&apos;s lives better, that I should (and will) continue to
+                learn and grow and that I should (and will) strive to continue
+                to be surrounded by people who want to do the same. That&apos;s
+                a pretty amazing way to live life.{' '}
               </p>
             </div>
             <div className={styles.inspirationalBlock}>
