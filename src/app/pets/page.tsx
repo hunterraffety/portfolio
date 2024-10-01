@@ -11,16 +11,15 @@ const Pets = () => {
     'pets3.jpg',
     'pets4.jpg',
     'pets5.jpg',
-    // Add more image filenames as needed
   ]
 
   return (
     <>
       <Head>
-        <title>Pets Gallery | [Your Name]</title>
+        <title>Pets Gallery | Watson and Sherlock!</title>
         <meta
           name='description'
-          content='A classy gallery showcasing my beloved pets.'
+          content='My beloved pets!'
         />
       </Head>
       <main>

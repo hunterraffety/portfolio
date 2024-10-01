@@ -86,10 +86,10 @@ const Europe = () => {
   return (
     <>
       <Head>
-        <title>Europe Gallery | [Your Name]</title>
+        <title>Europe Gallery | Hunter</title>
         <meta
           name='description'
-          content='A classy gallery showcasing my travels across Europe.'
+          content='My travels across Europe in 2024!'
         />
       </Head>
       <main>
