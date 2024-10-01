@@ -31,7 +31,7 @@ const Pets = () => {
     'pets27.jpg',
     'pets28.jpg',
     'pets29.jpg',
-    // 'pets30.jpg',
+    // 'pets30.jpg',,
     // 'pets31.jpg',
     // 'pets32.jpg',
   ]
