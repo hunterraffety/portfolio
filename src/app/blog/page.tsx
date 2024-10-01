@@ -29,8 +29,16 @@ export default function BlogPage() {
         Blog Coming Soon ... but in the meantime!
       </h2>
       <p className={styles.subtitle}>
-        I&apos;m crafting something special! (Building a Roubo workbench in my
-        wood shop! I also just got back from traveling (9/24))
+        I&apos;m crafting something special! (
+        <Link
+          href={
+            'https://www.popularwoodworking.com/projects/the-return-of-roubo/'
+          }
+        >
+          {' '}
+          Building a Roubo workbench
+        </Link>{' '}
+        in my wood shop! I also just got back from traveling (9/24))
         <br />
         <br />
         (Legit! This is my travel and woodworking blog, not for professional
