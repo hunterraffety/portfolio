@@ -85,6 +85,17 @@ const Europe = () => {
     'europe80.jpg',
     'europe81.jpg',
     'europe82.jpg',
+    'europe83.jpg',
+    'europe84.jpg',
+    'europe85.jpg',
+    'europe86.jpg',
+    'europe87.jpg',
+    'europe88.jpg',
+    'europe89.jpg',
+    'europe90.jpg',
+    'europe91.jpg',
+    'europe92.jpg',
+    // 'europe93.jpg',
   ]
 
   return (
