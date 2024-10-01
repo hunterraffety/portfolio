@@ -40,7 +40,7 @@ const Introduction = () => {
         satisfaction and drive better outcomes for business. I am committed to
         leveraging my skills and experiences to contribute meaningfully to
         forward-thinking organizations, continuously pushing the boundaries of
-        can be achieved.
+        what can be achieved.
       </p>
     </div>
   )
