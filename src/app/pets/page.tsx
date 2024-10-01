@@ -15,10 +15,7 @@ const Pets = () => {
     <>
       <Head>
         <title>Pets Gallery | Watson and Sherlock!</title>
-        <meta
-          name='description'
-          content='My beloved pets!'
-        />
+        <meta name='description' content='My beloved pets!' />
       </Head>
       <main>
         <Gallery images={petImages} title='Pets' />

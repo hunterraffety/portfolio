@@ -90,11 +90,8 @@ const Europe = () => {
   return (
     <>
       <Head>
-        <title>Europe Gallery | Hunter</title>
-        <meta
-          name='description'
-          content='My travels across Europe in 2024!'
-        />
+        <title>Europe Gallery | 2024</title>
+        <meta name='description' content='My travels across Europe in 2024!' />
       </Head>
       <main>
         <Gallery images={europeImages} title='Europe' />
