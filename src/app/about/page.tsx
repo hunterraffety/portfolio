@@ -105,11 +105,10 @@ export default function AboutPage() {
                 <br />
                 <br />
                 It is very much possible to do real, impactful work through
-                reaching users via keyboards and compelx code and crafting,
-                building, and implementing awesome user experiences and working
-                with a team of empowered peers to that end. It&apos;s an
-                incredibly rewarding experience that very much services the
-                community and world at large.
+                reaching users via keyboards and complex (but beautiful) code
+                through crafting, building, and delivering awesome user
+                experiences and working with a team of empowered peers to that
+                end.
                 <br />
                 <br />
                 If I&apos;m able to proliferate neat things and excitement into
