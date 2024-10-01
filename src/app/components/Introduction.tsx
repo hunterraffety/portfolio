@@ -34,12 +34,13 @@ const Introduction = () => {
         Building on a strong foundation and expanding technical skillset to try
         and stay on the edge of new tools, my passion for leadership, fostering
         growth, and strategic planning has enabled me to spearhead initiatives
-        such as international expansion, accessibility compliance audits, and
-        innovative feature development deliverables that not only enhance
-        product offerings but also drive user engagement and satisfaction. I am
-        committed to leveraging my skills and experiences to contribute
-        meaningfully to forward-thinking organizations, continuously pushing the
-        boundaries of what we can achieve together.
+        such as new product launches, international expansion, accessibility
+        compliance audits, and innovative feature deliverables that not only
+        enhance product offerings but also drive user engagement and
+        satisfaction and drive better outcomes for business. I am committed to
+        leveraging my skills and experiences to contribute meaningfully to
+        forward-thinking organizations, continuously pushing the boundaries of
+        can be achieved.
       </p>
     </div>
   )
