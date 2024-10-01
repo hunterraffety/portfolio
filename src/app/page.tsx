@@ -1,4 +1,3 @@
-// app/page.tsx
 import styles from './components/Home.module.scss'
 import Link from 'next/link'
 

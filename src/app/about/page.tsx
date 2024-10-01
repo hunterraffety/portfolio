@@ -1,4 +1,3 @@
-// app/about/page.tsx
 import Image from 'next/image'
 
 import Introduction from '../components/Introduction'

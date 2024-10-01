@@ -4,14 +4,24 @@ import Head from 'next/head'
 import Gallery from '../components/Gallery'
 
 const Europe = () => {
-  // List of Europe travel image filenames
   const europeImages = [
     'europe1.jpg',
     'europe2.jpg',
     'europe3.jpg',
     'europe4.jpg',
     'europe5.jpg',
-    // Add more image filenames as needed
+    'europe6.jpg',
+    'europe7.jpg',
+    'europe8.jpg',
+    'europe9.jpg',
+    'europe10.jpg',
+    'europe11.jpg',
+    'europe12.jpg',
+    'europe13.jpg',
+    'europe14.jpg',
+    'europe15.jpg',
+    'europe16.jpg',
+    // 'europe17.jpg',
   ]
 
   return (
