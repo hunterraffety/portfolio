@@ -1,5 +1,3 @@
-// pages/europe.tsx
-
 import Head from 'next/head'
 import Gallery from '../components/Gallery'
 
@@ -81,6 +79,12 @@ const Europe = () => {
     'europe74.jpg',
     'europe75.jpg',
     'europe76.jpg',
+    'europe77.jpg',
+    'europe78.jpg',
+    'europe79.jpg',
+    'europe80.jpg',
+    'europe81.jpg',
+    'europe82.jpg',
   ]
 
   return (

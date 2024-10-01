@@ -1,5 +1,3 @@
-// pages/pets.tsx
-
 import Head from 'next/head'
 import Gallery from '../components/Gallery'
 
