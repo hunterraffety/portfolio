@@ -2,13 +2,18 @@ import Head from 'next/head'
 import Gallery from '../components/Gallery'
 
 const Pets = () => {
-  // List of pet image filenames
   const petImages = [
     'pets1.jpg',
     'pets2.jpg',
     'pets3.jpg',
     'pets4.jpg',
     'pets5.jpg',
+    'pets6.jpg',
+    'pets7.jpg',
+    'pets8.jpg',
+    'pets9.jpg',
+    'pets10.jpg',
+    'pets11.jpg',
   ]
 
   return (
