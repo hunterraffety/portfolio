@@ -27,14 +27,14 @@ export default function BlogPage() {
       </div>
       <h2 className={styles.title}>Blog Coming Soon</h2>
       <p className={styles.subtitle}>
-        I&apos;m crafting something special for you! (Building a Roubo
-        workbench, and I just got back from Rome (9/24))
+        I&apos;m crafting something special! (Building a Roubo
+        workbench in my wood shop! I also just got back from traveling (9/24))
         <br />
         <br />
         (Legit! This is my travel and woodworking blog, not for professional
-        purposes)
+        purposes, but you can look too!~)
         <Link href='/europe'>
-          <p>Europe 2024</p>
+          <p>Europe (Denmark, Italy, Austria, Germany, France, Switzerland) 2024 (yay!)</p>
         </Link>
         <Link href='/pets'>
           <p>Watson & Sherlock</p>

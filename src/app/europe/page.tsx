@@ -21,7 +21,17 @@ const Europe = () => {
     'europe14.jpg',
     'europe15.jpg',
     'europe16.jpg',
-    // 'europe17.jpg',
+    'europe17.jpg',
+    'europe18.jpg',
+    // 'europe19.jpg',
+    // 'europe20.jpg',
+    // 'europe21.jpg',
+    // 'europe22.jpg',
+    // 'europe23.jpg',
+    // 'europe24.jpg',
+    // 'europe25.jpg',
+    // 'europe26.jpg',
+    // 'europe27.jpg',
   ]
 
   return (
