@@ -181,9 +181,19 @@ const Europe = () => {
     'europe176.jpg',
     'europe177.jpg',
     'europe178.jpg',
-    // 'europe179.jpg',
-    // 'europe180.jpg',
-    // 'europe181.jpg',
+    'europe179.jpg',
+    'europe180.jpg',
+    'europe181.jpg',
+    'europe182.jpg',
+    'europe183.jpg',
+    'europe184.jpg',
+    'europe185.jpg',
+    'europe186.jpg',
+    'europe187.jpg',
+    'europe188.jpg',
+    'europe189.jpg',
+    'europe190.jpg',
+    // 'europe191.jpg',
   ]
 
   return (
