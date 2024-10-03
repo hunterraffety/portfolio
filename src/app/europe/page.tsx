@@ -215,7 +215,7 @@ const Europe = () => {
     'europe210.jpg',
     'europe211.jpg',
     'europe212.jpg',
-    // 'europe213.jpg',
+    'europe213.jpg',
     // 'europe214.jpg',
     // 'europe215.jpg',
     // 'europe216.jpg',
