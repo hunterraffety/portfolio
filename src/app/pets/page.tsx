@@ -21,8 +21,6 @@ const Pets = () => {
     'pets17.jpg',
     'pets18.jpg',
     'pets19.jpg',
-    // 'pets20.jpg',
-    // 'pets21.jpg',
     'pets22.jpg',
     'pets23.jpg',
     'pets24.jpg',
@@ -31,9 +29,6 @@ const Pets = () => {
     'pets27.jpg',
     'pets28.jpg',
     'pets29.jpg',
-    // 'pets30.jpg',,
-    // 'pets31.jpg',
-    // 'pets32.jpg',
   ]
 
   return (
