@@ -16,7 +16,7 @@ const Pets = () => {
     'pets11.jpg',
     'pets12.jpg',
     'pets13.jpg',
-    'pets15.JPG',
+    'pets15.jpg',
     'pets16.jpg',
     'pets17.jpg',
     'pets18.jpg',
