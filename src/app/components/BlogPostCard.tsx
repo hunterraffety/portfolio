@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Image from 'next/image'
 import styles from './BlogPostCard.module.scss'
 import { Post } from '../data/samplePosts'
 
@@ -11,20 +11,15 @@ const BlogPostCard: React.FC<BlogPostCardProps> = ({ post }) => {
     <div className={`${styles.card} ${styles.blogPostCard}`}>
       {post.coverImage && (
         <div className={styles.imageContainer}>
-          <img src={post.coverImage} alt={post.title} />
+          <Image
+            src={post.coverImage}
+            alt={post.title}
+            layout='fill'
+            objectFit='cover'
+          />
         </div>
       )}
-      <div className={styles.content}>
-        <h3>
-          <Link href={`/blog/${post.slug}`}>
-            <span>{post.title}</span>
-          </Link>
-        </h3>
-        <p>{post.excerpt}</p>
-        <Link href={`/blog/${post.slug}`}>
-          <span className={styles.readMore}>Read More</span>
-        </Link>
-      </div>
+      <div className={styles.content}>{/* ... */}</div>
     </div>
   )
 }
