@@ -1,7 +1,5 @@
-// components/Icon.tsx
-
 import React from 'react'
-import { FaHeart, FaCrown } from 'react-icons/fa' // Example icons
+import { FaHeart, FaCrown } from 'react-icons/fa'
 
 interface IconProps {
   type: 'relentless' | 'champion'
@@ -11,9 +9,9 @@ interface IconProps {
 const Icon: React.FC<IconProps> = ({ type, className }) => {
   switch (type) {
     case 'relentless':
-      return <FaHeart className={className} /> // Represents passion and drive
+      return <FaHeart className={className} />
     case 'champion':
-      return <FaCrown className={className} /> // Represents leadership and support
+      return <FaCrown className={className} />
     default:
       return null
   }

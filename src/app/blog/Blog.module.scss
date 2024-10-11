@@ -1,89 +1,5 @@
-// app/blog/Blog.module.scss
-
 @import '../styles/_variables.scss';
 @import '../styles/_mixins.scss';
-
-// .blog {
-//   padding: 4rem 2rem;
-
-//   h2 {
-//     @include responsive-text(2rem, 2.5rem);
-//     text-align: center;
-//     margin-bottom: 3rem;
-//     font-family: $font-headings;
-//     color: $gold-accent;
-//     @include text-shadow;
-//   }
-
-//   .postList {
-//     display: flex;
-//     flex-direction: column;
-//     gap: 3rem;
-
-//     @media (min-width: 768px) {
-//       flex-direction: row;
-//       flex-wrap: wrap;
-//       justify-content: space-between;
-//     }
-
-//     .card {
-//       background-color: $dark-gray;
-//       border: 2px solid $dark-gold;
-//       border-radius: 10px;
-//       overflow: hidden;
-//       flex: 0 0 calc(50% - 1rem);
-//       max-width: calc(50% - 1rem);
-//       box-shadow: 0 4px 6px rgba($black, 0.7);
-
-//       @media (max-width: 767px) {
-//         flex: 1 1 100%;
-//         max-width: 100%;
-//       }
-
-//       .imageContainer {
-//         width: 100%;
-//         height: 200px;
-//         overflow: hidden;
-
-//         img {
-//           width: 100%;
-//           height: 100%;
-//           object-fit: cover;
-//           filter: grayscale(20%);
-//           transition: transform 0.3s;
-
-//           &:hover {
-//             transform: scale(1.05);
-//           }
-//         }
-//       }
-
-//       .content {
-//         padding: 1.5rem;
-
-//         h3 {
-//           font-size: 1.5rem;
-//           margin-bottom: 0.5rem;
-//           font-family: $font-headings;
-//           color: $gold-accent;
-//           @include text-shadow;
-//         }
-
-//         p {
-//           font-size: 1rem;
-//           margin-bottom: 1rem;
-//           font-family: $font-body;
-//           color: $light-gray-text;
-//         }
-
-//         .readMore {
-//           @include button-style;
-//           text-decoration: none;
-//         }
-//       }
-//     }
-//   }
-// }
 
 .placeholder {
   display: flex;
@@ -91,7 +7,7 @@
   align-items: center;
   justify-content: center;
   height: 80vh;
-  color: $gold-accent; // Gold accent text
+  color: $gold-accent;
   text-align: center;
   padding: 2rem;
 
@@ -102,7 +18,7 @@
       width: 100px;
       height: 100px;
       color: $gold-accent;
-      animation: rotate 5s linear infinite; // Optional rotation animation
+      animation: rotate 5s linear infinite;
     }
   }
 
@@ -121,7 +37,6 @@
   }
 }
 
-/* Optional: Rotate animation for the icon */
 @keyframes rotate {
   from {
     transform: rotate(0deg);

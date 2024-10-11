@@ -24,7 +24,7 @@
 
     @media (min-width: 768px) {
       flex-direction: row;
-      align-items: flex-start; // Align items to the top
+      align-items: flex-start;
     }
 
     .imageContainer {
@@ -32,12 +32,12 @@
       max-width: 400px;
       margin-bottom: 2rem;
       border-radius: 10px;
-      overflow: hidden; // Ensure the image stays within the container
+      overflow: hidden;
       border: 3px solid $gold-accent;
       box-shadow: 0 4px 6px rgba($black, 0.7);
 
       @media (min-width: 768px) {
-        width: 30%; // Adjusts image container to 30% width on larger screens
+        width: 30%;
         margin-bottom: 0;
         margin-right: 2rem;
       }
@@ -52,7 +52,7 @@
       width: 100%;
 
       @media (min-width: 768px) {
-        width: 70%; // Adjusts text content to 70% width on larger screens
+        width: 70%;
       }
 
       p {
@@ -80,7 +80,7 @@
           .inspirationalTitle {
             font-size: 1.3rem;
             font-family: $font-headings;
-            color: $crimson-red; // Maroon accent for titles
+            color: $crimson-red;
             @include text-shadow;
             margin-bottom: 1rem;
           }
@@ -99,12 +99,12 @@
         }
 
         .list {
-          list-style: none; // Remove default bullets
+          list-style: none;
           padding-left: 0;
 
           li {
             position: relative;
-            padding-left: 2.5rem; // Increased padding for icon spacing
+            padding-left: 2.5rem;
             margin-bottom: 0.5rem;
             font-size: 1rem;
             font-family: $font-body;
@@ -117,27 +117,11 @@
               left: 0;
               width: 1rem;
               height: 1rem;
-              color: $crimson-red; // Maroon color for icons
+              color: $crimson-red;
             }
-
-            /* If not using icons, use custom bullets
-            &::before {
-              content: '•';
-              position: absolute;
-              left: 0;
-              color: $crimson-red; // Maroon color for bullets
-              font-size: 1.2rem;
-              top: 0;
-            }
-            */
           }
         }
       }
     }
   }
-}
-
-/* Optional: Additional styling for the inspirational titles */
-.inspirationalTitle {
-  /* Styles are already included above */
 }

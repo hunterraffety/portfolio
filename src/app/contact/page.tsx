@@ -1,4 +1,3 @@
-// app/contact/page.tsx
 import styles from './Contact.module.scss'
 
 const ContactPage = () => {

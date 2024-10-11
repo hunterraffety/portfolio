@@ -1,5 +1,3 @@
-// components/ExperienceSection.module.scss
-
 @import '../styles/_variables.scss';
 @import '../styles/_mixins.scss';
 
@@ -60,7 +58,7 @@
             margin-bottom: 0.5rem;
 
             &::before {
-              content: '➤'; // Arrow icon
+              content: '➤';
               position: absolute;
               left: 0;
               color: $crimson-red;

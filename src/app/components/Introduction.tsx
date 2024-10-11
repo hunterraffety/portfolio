@@ -1,5 +1,3 @@
-// components/Introduction.tsx
-
 import styles from './Introduction.module.scss'
 
 const Introduction = () => {

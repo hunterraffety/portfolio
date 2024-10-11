@@ -1,5 +1,4 @@
 'use client'
-// components/Gallery.tsx
 
 import React, { useState } from 'react'
 import Image from 'next/image'
@@ -43,7 +42,7 @@ const Gallery: React.FC<GalleryProps> = ({ images, title }) => {
               layout='responsive'
               width={300}
               height={300}
-              objectFit='cover' // Ensu
+              objectFit='cover'
               className={styles.image}
               placeholder='blur'
               blurDataURL='/images/placeholder.png'

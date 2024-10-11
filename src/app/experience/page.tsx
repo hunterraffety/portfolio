@@ -1,5 +1,3 @@
-// components/ExperienceSection.tsx
-
 import styles from './ExperienceSection.module.scss'
 
 const ExperienceSection = () => {

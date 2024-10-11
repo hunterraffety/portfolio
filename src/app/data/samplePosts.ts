@@ -1,5 +1,3 @@
-// data/samplePosts.ts
-
 export interface Post {
   id: string;
   title: string;
@@ -27,7 +25,6 @@ export const samplePosts: Post[] = [
         The complexities we face are not obstacles but opportunities to create something extraordinary.
       </p>
     `,
-    // coverImage: profilePic.src,
     publishedDate: '2023-08-15',
   },
   {
@@ -45,9 +42,6 @@ export const samplePosts: Post[] = [
         By combining ornate patterns with modern functionality, designers create interfaces that are both nostalgic and cutting-edge.
       </p>
     `,
-    // coverImage: profilePic.src,
     publishedDate: '2023-09-05',
   },
-  // Add more sample posts as needed
 ];
-// import profilePic from '../public/images/profile.png';

@@ -1,5 +1,3 @@
-// components/icons/MagnifyingGlass.tsx
-
 import React from 'react'
 
 interface MagnifyingGlassProps {

@@ -1,5 +1,3 @@
-// components/PersonalInterests.tsx
-
 import styles from './PersonalInterests.module.scss'
 
 const PersonalInterests = () => {

@@ -1,5 +1,3 @@
-// app/blog/[slug]/Post.module.scss
-
 @import '../../styles/_variables.scss';
 @import '../../styles/_mixins.scss';
 
@@ -46,7 +44,7 @@
   .content {
     font-size: 1.2rem;
     line-height: 1.8;
-    font-family: 'Courier New', Courier, monospace; // Typewriter-like font
+    font-family: 'Courier New', Courier, monospace;
     color: $light-gray-text;
     animation: typing 4s steps(100, end);
 

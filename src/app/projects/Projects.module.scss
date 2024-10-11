@@ -1,5 +1,3 @@
-// app/projects/Projects.module.scss
-
 @import '../styles/_variables.scss';
 @import '../styles/_mixins.scss';
 
@@ -27,10 +25,9 @@
     }
   }
 
-  // Adjust project card width for larger screens
   @media (min-width: 768px) {
     .project-card {
-      flex: 0 0 calc(50% - 1rem); // Two columns with space between
+      flex: 0 0 calc(50% - 1rem);
       max-width: calc(50% - 1rem);
     }
   }

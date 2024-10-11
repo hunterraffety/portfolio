@@ -1,4 +1,3 @@
-// components/ProjectCard.tsx
 import styles from './ProjectCard.module.scss'
 import Image from 'next/image'
 

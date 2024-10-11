@@ -1,7 +1,5 @@
-// components/Modal.tsx
-
 import React from 'react'
-import Image from 'next/image' // Importing Image from next/image
+import Image from 'next/image'
 import styles from '../styles/Modal.module.scss'
 
 interface ModalProps {

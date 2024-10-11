@@ -1,4 +1,3 @@
-// components/DarkModeToggle.tsx
 'use client'
 
 import { useState, useEffect } from 'react'

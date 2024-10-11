@@ -1,5 +1,3 @@
-// components/SkillsSection.tsx
-
 import styles from './SkillsSection.module.scss'
 
 const SkillsSection = () => {

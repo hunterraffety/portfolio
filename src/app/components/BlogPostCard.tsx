@@ -1,5 +1,3 @@
-// components/BlogPostCard.tsx
-
 import Link from 'next/link'
 import styles from './BlogPostCard.module.scss'
 import { Post } from '../data/samplePosts'
