@@ -6,16 +6,14 @@ export default function BlogPage() {
   return (
     <section className={styles.placeholder}>
       <div className={styles.iconContainer}>
-        <MagnifyingGlass className={styles.icon} />
+        {/* <MagnifyingGlass className={styles.icon} /> */}
       </div>
-      <h2 className={styles.title}>
+      {/* <h2 className={styles.title}>
         Learn more about my travels and experiences.
-      </h2>
+      </h2> */}
       <p className={styles.subtitle}>
         <Link href='/europe'>
-          <p>
-            Europe (Denmark, Italy, Austria, Germany, France, Switzerland) 2024
-          </p>
+          <p>Europe 2024</p>
         </Link>
         <Link href='/pets'>
           <p>Watson & Sherlock</p>
